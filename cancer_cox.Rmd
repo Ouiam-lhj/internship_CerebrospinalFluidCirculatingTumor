@@ -1,0 +1,237 @@
+---
+title: "pca_SNPs"
+output: html_document
+date: "2025-05-13"
+---
+
+
+```{r }
+
+library(survival)
+
+
+cancer_dataset <- read.csv("cox_dataset_for_R_analysis2.csv", header = TRUE)
+surv = cancer_dataset$OS_MONTHS
+sex = cancer_dataset$SEX
+tmb = cancer_dataset$TMB_NONSYNONYMOUS
+mut = cancer_dataset$MUTATION_EFFECT
+cancer_dataset$OS_STATUS <- ifelse(cancer_dataset$OS_STATUS == "1:DECEASED", 1,
+                                 ifelse(cancer_dataset$OS_STATUS == "0:LIVING", 0, NA))
+
+status = cancer_dataset$OS_STATUS
+vf = cancer_dataset$VF # Variant Allele Frequency (VAF) ou VF : la fréquence de l’allèle variant dans l’échantillon tumoral
+vc = as.factor(cancer_dataset$Variant_Classification) #variant classfc° (Missense_Mutation, nonsense_mutation)
+
+cancer_dataset$surv_obj <- Surv(time = cancer_dataset$OS_MONTHS, event = cancer_dataset$OS_STATUS)
+canctypedet = cancer_dataset$CANCER_TYPE_DETAILED
+oncog = cancer_dataset$ONCOGENIC
+var_onc = cancer_dataset$VARIANT_IN_ONCOKB
+oncotree_code = as.factor(cancer_dataset$ONCOTREE_CODE)
+cancer_dataset
+
+```
+
+```{r }
+cox1 <- coxph(surv_obj ~ canctypedet , data = cancer_dataset)
+
+# View the summary of the Cox model
+summary(cox1)
+```
+
+```{r}
+cox2<- coxph(surv_obj ~ canctypedet + oncotree_code + tmb, data = cancer_dataset)
+
+# View the summary of the Cox model
+summary(cox2)
+
+```
+
+```{r}
+canc_fact <- as.factor(cancer_dataset$CANCER_TYPE_DETAILED)
+cox3 <- coxph(surv_obj ~ canc_fact  + vf , data = cancer_dataset)
+
+# View the summary of the Cox model
+summary(cox3)
+
+```
+
+
+````{r}
+cox4 <-  coxph(surv_obj ~ vf + vc + tmb , data = cancer_dataset)
+summary(cox4)
+````
+
+```{r }
+install.packages("survminer")
+library(survival)     # Pour la régression de Cox
+library(survminer) 
+ggsurvplot(survfit(surv_obj ~ canctypedet, data = cancer_dataset))
+
+surv_obj <- Surv(time = cancer_dataset$OS_MONTHS, event = cancer_dataset$OS_STATUS)
+ggsurvplot(survfit(surv_obj ~ canctypedet, data = cancer_dataset),
+           data = cancer_dataset,
+           pval = TRUE,
+           risk.table = TRUE,
+           ggtheme = theme_minimal())
+```
+
+```{r}
+library(survminer)
+surv_obj <- Surv(time = cancer_dataset$OS_MONTHS, event = cancer_dataset$OS_STATUS)
+
+ggsurvplot(
+  fit = survfit(surv_obj ~ canctypedet, data = cancer_dataset),
+  data = cancer_dataset,
+  pval = TRUE,
+  risk.table = TRUE
+)
+
+```
+
+```{r}
+cox4 <-  coxph(surv_obj ~ VF + Variant_Classification + TMB_NONSYNONYMOUS , data = cancer_dataset)
+
+ggforest(cox4, data = cancer_dataset)
+```
+
+```{r}
+#cancer_dataset <- read.csv("cox_dataset.csv", header = TRUE, sep="\t", skip = 4)
+
+cancer_dataset1 <- read.csv("cox_dataset.csv", header = TRUE)
+cancer_dataset1
+cancer_dataset1$OS_STATUS <- ifelse(cancer_dataset1$OS_STATUS == "1:DECEASED", 1,
+                                 ifelse(cancer_dataset1$OS_STATUS == "0:LIVING", 0, NA))
+cancer_dataset1$surv_obj <- Surv(time = cancer_dataset1$OS_MONTHS, event = cancer_dataset1$OS_STATUS)
+
+```
+
+```{r}
+
+cox5 <-  coxph(surv_obj ~ CTDNA_STATUS + TMB_NONSYNONYMOUS + CANCER_TYPE , data = cancer_dataset1)
+
+ggforest(cox5, data = cancer_dataset1)
+```
+
+```{r}
+ggsurvplot(
+  fit = survfit(surv_obj ~ ONCOTREE_CODE, data = cancer_dataset1),
+  data = cancer_dataset1,
+  pval = TRUE,
+  risk.table = TRUE
+)
+
+```
+
+```{r}
+cancer_lung <- read.csv("first_try_lung_metastac.csv", header = TRUE)
+cancer_lung
+cancer_lung$OS_STATUS <- ifelse(cancer_lung$OS_STATUS == "1:DECEASED", 1,
+                                 ifelse(cancer_lung$OS_STATUS == "0:LIVING", 0, NA))
+cancer_lung$surv_obj <- Surv(time = cancer_lung$OS_MONTHS, event = cancer_lung$OS_STATUS)
+
+
+```
+
+```{r}
+
+cox6 <-  coxph(surv_obj ~ SMOKING_STATUS + PRIOR_TREATMENT + SEX + AGE_GT_MEDIAN  , data = cancer_lung)
+
+ggforest(cox6, data = cancer_lung)
+
+```
+
+
+```{r}
+install.packages("forestplot")
+library(forestplot)
+```
+
+
+```{r}
+cancer_lung <- read.csv("cox_dataset_2.csv", header = TRUE)
+cancer_lung
+cancer_lung$OS_STATUS <- ifelse(cancer_lung$OS_STATUS == "1:DECEASED", 1,
+                                 ifelse(cancer_lung$OS_STATUS == "0:LIVING", 0, NA))
+cancer_lung$surv_obj <- Surv(time = cancer_lung$OS_MONTHS, event = cancer_lung$OS_STATUS)
+```
+
+
+```{r}
+library(survminer)
+cox6 <-  coxph(surv_obj ~ SMOKING_STATUS + cancer_not_adeno + PRIOR_TREATMENT + SEX + AGE_GT_MEDIAN  +	n_ctdna_sup_one  + VAF_sup_median  , data = cancer_lung)
+
+ggforest(cox6, data = cancer_lung)
+#N = 1102
+```
+````{r}
+#cox7 <-  coxph(surv_obj ~  Tumor_ONLY + ctDNA_ONLY , data = cancer_lung)
+cox7 <-  coxph(surv_obj ~  VAF + VAF_sup_median , data = cancer_lung)
+
+ggforest(cox7, data = cancer_lung)
+```
+
+```{r}
+ggsurvplot(
+  fit = survfit(surv_obj ~ n_ctdna_sup_one, data = cancer_lung),
+  data = cancer_lung,
+  pval = TRUE,
+  risk.table = TRUE,
+  #xlim = c(0, 40),           # borne minimale et maximale de l’axe x
+  break.time.by = 10,        # graduations tous les 10 mois
+  xlab = "Time (months)",
+  surv.scale   = "percent",                # multiply all survival probabilities by 100
+  ylab         = "Survival (%)" 
+)
+```
+
+```{r}
+ggsurvplot(
+  fit = survfit(surv_obj ~ ctDNA_ONLY, data = cancer_lung),
+  data = cancer_lung,
+  pval = TRUE,
+  risk.table = TRUE,
+  xlim = c(0, 40),           # borne minimale et maximale de l’axe x
+  break.time.by = 10,        # graduations tous les 10 mois
+  xlab = "Time (months)",
+  surv.scale   = "percent",                # multiply all survival probabilities by 100
+  ylab         = "Survival (%)" 
+)
+
+```
+
+```{r}
+# 1) Installer/charger les packages nécessaires
+install.packages(c("broom", "ggplot2"))
+library(survival)
+library(broom)
+library(ggplot2)
+```
+
+
+```{r}
+
+```
+
+```{r}
+
+```
+
+```{r}
+
+```
+
+```{r}
+
+```
+
+```{r}
+
+```
+
+```{r}
+
+```
+
+
+
+
