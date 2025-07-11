@@ -9,6 +9,9 @@ date: "2025-05-13"
 
 library(survival)
 
+install.packages("forestplot")
+library(forestplot)
+
 
 cancer_dataset <- read.csv("cox_dataset_for_R_analysis2.csv", header = TRUE)
 surv = cancer_dataset$OS_MONTHS
@@ -142,8 +145,7 @@ ggforest(cox6, data = cancer_lung)
 
 
 ```{r}
-install.packages("forestplot")
-library(forestplot)
+
 ```
 
 
@@ -158,7 +160,7 @@ cancer_lung$surv_obj <- Surv(time = cancer_lung$OS_MONTHS, event = cancer_lung$O
 
 ```{r}
 library(survminer)
-cox6 <-  coxph(surv_obj ~ SMOKING_STATUS + cancer_not_adeno + PRIOR_TREATMENT + SEX + AGE_GT_MEDIAN  +	n_ctdna_sup_one  + VAF_sup_median  , data = cancer_lung)
+cox6 <-  coxph(surv_obj ~ SMOKING_STATUS + cancer_not_adeno + PRIOR_TREATMENT + SEX + AGE_GT_MEDIAN   + Tumor_ONLY + 	n_ctdna_sup_one   , data = cancer_lung)
 
 ggforest(cox6, data = cancer_lung)
 #N = 1102
@@ -209,23 +211,68 @@ library(ggplot2)
 
 
 ```{r}
+# 📦 Chargement des packages
+#install.packages(c("FactoMineR", "factoextra"))
+#library(FactoMineR)
+#library(factoextra)
+#library(dplyr)
+
+# 📊 Supposons que votre dataset s'appelle cancer_dataset
+# et que vous avez une colonne OS_MONTHS (survie) et d'autres variables explicatives
+
+# 1. 🧹 Sélection des variables numériques à inclure dans l'ACP
+vars_for_pca <- cancer_lung %>%
+  select_if(is.numeric) %>%
+  select(-OS_MONTHS, -OS_STATUS)  # Retire temporairement la survie
+
+vars_for_pca_clean <- vars_for_pca %>%
+  select(where(is.numeric)) %>%
+  na.omit()
+
+# 2. ⚙️ Réaliser l'ACP (centrée-réduite)
+res.pca <- PCA(vars_for_pca, scale.unit = TRUE, graph = TRUE)
+
+# 3. 📈 Visualiser la variance expliquée
+fviz_eig(res.pca, addlabels = TRUE, ylim = c(0, 50))
+
+# 4. 🔍 Identifier les variables les plus contributives
+# Contributions aux deux premières composantes
+fviz_pca_var(res.pca, col.var = "contrib") +
+  scale_color_gradient2(low="white", mid="blue", high="red", midpoint=20) +
+  theme_minimal()
+
+# 5. 🏆 Extraire les contributions numériquement
+contributions <- res.pca$var$contrib
+
+# 💡 Trouver les top variables influentes sur PC1
+top_PC1 <- sort(contributions[, 1], decreasing = TRUE)[1:10]
+print("Top 10 variables contributives à PC1:")
+print(top_PC1)
+
+# 💡 Si vous voulez voir leur lien avec la survie (exploration)
+cancer_dataset %>%
+  select(OS_MONTHS, names(top_PC1)) %>%
+  cor(use = "complete.obs") %>%
+  round(2)
 
 ```
 
 ```{r}
-
+str(vars_for_pca)
+summary(vars_for_pca)
 ```
 
 ```{r}
-
+dim(vars_for_pca)         # Doit être comme (1102, X)
+str(vars_for_pca)
 ```
 
 ```{r}
-
+is.data.frame(vars_for_pca)
 ```
 
 ```{r}
-
+str(vars_for_pca) 
 ```
 
 ```{r}
