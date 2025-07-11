@@ -1,0 +1,931 @@
+,PATIENT_ID,ONCOTREE_CODE,CANCER_TYPE,CANCER_TYPE_DETAILED,OS_MONTHS,OS_STATUS,ctDNA_sup_one,N_Tumor_ALTERATIONS_y,N_CTDNA_ALTERATIONS_y,Discordance_Jaccard_Score,Discordance_Jaccard_Score_sup0.5,Discordance_Jaccard_Score_sup0.7,Discordance_Jaccard_Score_sup0.9,Discordance_Jaccard_Score_inf0.2,Discordance_Jaccard_Score_inf0.3,Jaccard_binned,ctDNA_Tumor_ratio
+0,MSK-L-007,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,21.4848883,1:DECEASED,True,0.0,3.0,1.0,True,True,True,False,False,2,3000000.0
+1,MSK-L-011,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,11.20236531,1:DECEASED,True,0.0,2.0,1.0,True,True,True,False,False,2,2000000.0
+2,MSK-L-015,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,61.66228647,0:LIVING,True,0.0,2.0,1.0,True,True,True,False,False,2,2000000.0
+3,MSK-L-020,NSCLC,Non-Small Cell Lung Cancer,Non-Small Cell Lung Cancer,8.869908016,1:DECEASED,True,0.0,2.0,1.0,True,True,True,False,False,2,2000000.0
+4,MSK-L-023,NSCLC,Non-Small Cell Lung Cancer,Non-Small Cell Lung Cancer,1.149802891,0:LIVING,False,0.0,1.0,1.0,True,True,True,False,False,2,1000000.0
+5,MSK-L-031,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,21.84625493,1:DECEASED,False,0.0,1.0,1.0,True,True,True,False,False,2,1000000.0
+6,MSK-L-033,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,59.46123522,1:DECEASED,False,0.0,1.0,1.0,True,True,True,False,False,2,1000000.0
+7,MSK-L-039,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,2.463863338,1:DECEASED,True,0.0,3.0,1.0,True,True,True,False,False,2,3000000.0
+8,MSK-L-045,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,5.519053876,1:DECEASED,False,0.0,1.0,1.0,True,True,True,False,False,2,1000000.0
+9,MSK-L-049,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,1.773981603,1:DECEASED,False,0.0,1.0,1.0,True,True,True,False,False,2,1000000.0
+10,MSK-L-052,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,16.81997372,1:DECEASED,False,0.0,1.0,1.0,True,True,True,False,False,2,1000000.0
+11,MSK-L-067,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,15.50591327,0:LIVING,True,0.0,2.0,1.0,True,True,True,False,False,2,2000000.0
+12,MSK-L-071,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,4.730617608,1:DECEASED,True,0.0,2.0,1.0,True,True,True,False,False,2,2000000.0
+13,MSK-L-074,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,5.814717477,1:DECEASED,False,0.0,1.0,1.0,True,True,True,False,False,2,1000000.0
+14,MSK-L-076,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,11.43232589,0:LIVING,False,0.0,1.0,1.0,True,True,True,False,False,2,1000000.0
+15,MSK-L-083,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,12.02365309,1:DECEASED,False,0.0,1.0,1.0,True,True,True,False,False,2,1000000.0
+16,MSK-L-091,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,52.29960578,0:LIVING,False,0.0,1.0,1.0,True,True,True,False,False,2,1000000.0
+17,MSK-L-1006,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,22.70039422,1:DECEASED,False,0.0,1.0,1.0,True,True,True,False,False,2,1000000.0
+18,MSK-L-103,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,1.938239159,1:DECEASED,True,0.0,3.0,1.0,True,True,True,False,False,2,3000000.0
+19,MSK-L-1031,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,8.771353482,1:DECEASED,True,0.0,3.0,1.0,True,True,True,False,False,2,3000000.0
+20,MSK-L-1033,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,35.97240473,0:LIVING,True,0.0,6.0,1.0,True,True,True,False,False,2,6000000.0
+21,MSK-L-1034,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,15.76872536,1:DECEASED,True,0.0,4.0,1.0,True,True,True,False,False,2,4000000.0
+22,MSK-L-1051,NSCLC,Non-Small Cell Lung Cancer,Non-Small Cell Lung Cancer,3.64651774,1:DECEASED,False,0.0,1.0,1.0,True,True,True,False,False,2,1000000.0
+23,MSK-L-1058,LUSC,Non-Small Cell Lung Cancer,Lung Squamous Cell Carcinoma,1.051248357,1:DECEASED,True,0.0,2.0,1.0,True,True,True,False,False,2,2000000.0
+24,MSK-L-1085,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,22.86465177,0:LIVING,True,0.0,2.0,1.0,True,True,True,False,False,2,2000000.0
+25,MSK-L-1086,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,22.70039422,0:LIVING,True,0.0,3.0,1.0,True,True,True,False,False,2,3000000.0
+26,MSK-L-1090,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,10.84099869,1:DECEASED,False,0.0,1.0,1.0,True,True,True,False,False,2,1000000.0
+27,MSK-L-1109,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,18.79106439,1:DECEASED,True,0.0,3.0,1.0,True,True,True,False,False,2,3000000.0
+28,MSK-L-1139,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,1.248357424,0:LIVING,True,0.0,2.0,1.0,True,True,True,False,False,2,2000000.0
+29,MSK-L-115,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,3.94218134,0:LIVING,True,0.0,2.0,1.0,True,True,True,False,False,2,2000000.0
+30,MSK-L-1156,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,22.56898817,1:DECEASED,True,0.0,2.0,1.0,True,True,True,False,False,2,2000000.0
+31,MSK-L-1158,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,23.39027595,1:DECEASED,True,0.0,3.0,1.0,True,True,True,False,False,2,3000000.0
+32,MSK-L-1172,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,6.241787122,0:LIVING,False,0.0,1.0,1.0,True,True,True,False,False,2,1000000.0
+33,MSK-L-1181,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,9.724047306,1:DECEASED,False,0.0,1.0,1.0,True,True,True,False,False,2,1000000.0
+34,MSK-L-1183,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,3.679369251,1:DECEASED,True,0.0,3.0,1.0,True,True,True,False,False,2,3000000.0
+35,MSK-L-1188,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,8.377135348,0:LIVING,True,0.0,2.0,1.0,True,True,True,False,False,2,2000000.0
+36,MSK-L-127,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,16.42575558,1:DECEASED,True,0.0,2.0,1.0,True,True,True,False,False,2,2000000.0
+37,MSK-L-130,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,6.603153745,1:DECEASED,False,0.0,1.0,1.0,True,True,True,False,False,2,1000000.0
+38,MSK-L-139,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,5.256241787,0:LIVING,False,0.0,1.0,1.0,True,True,True,False,False,2,1000000.0
+39,MSK-L-143,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,3.285151117,1:DECEASED,False,0.0,1.0,1.0,True,True,True,False,False,2,1000000.0
+40,MSK-L-144,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,50.72273325,1:DECEASED,True,0.0,3.0,1.0,True,True,True,False,False,2,3000000.0
+41,MSK-L-153,LUSC,Non-Small Cell Lung Cancer,Lung Squamous Cell Carcinoma,4.270696452,1:DECEASED,False,0.0,1.0,1.0,True,True,True,False,False,2,1000000.0
+42,MSK-L-159,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,10.51248357,1:DECEASED,False,0.0,1.0,1.0,True,True,True,False,False,2,1000000.0
+43,MSK-L-168,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,68.79106439,1:DECEASED,True,0.0,2.0,1.0,True,True,True,False,False,2,2000000.0
+44,MSK-L-172,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,44.90801577,1:DECEASED,False,0.0,1.0,1.0,True,True,True,False,False,2,1000000.0
+45,MSK-L-173,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,2.463863338,1:DECEASED,False,0.0,1.0,1.0,True,True,True,False,False,2,1000000.0
+46,MSK-L-177,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,33.5413929,0:LIVING,False,0.0,1.0,1.0,True,True,True,False,False,2,1000000.0
+47,MSK-L-185,NSCLC,Non-Small Cell Lung Cancer,Non-Small Cell Lung Cancer,2.496714849,1:DECEASED,False,0.0,1.0,1.0,True,True,True,False,False,2,1000000.0
+48,MSK-L-186,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,61.89224704,1:DECEASED,False,0.0,1.0,1.0,True,True,True,False,False,2,1000000.0
+49,MSK-L-189,LUSC,Non-Small Cell Lung Cancer,Lung Squamous Cell Carcinoma,2.036793693,1:DECEASED,True,0.0,2.0,1.0,True,True,True,False,False,2,2000000.0
+50,MSK-L-195,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,3.810775296,1:DECEASED,False,0.0,1.0,1.0,True,True,True,False,False,2,1000000.0
+51,MSK-L-220,NSCLC,Non-Small Cell Lung Cancer,Non-Small Cell Lung Cancer,33.86990802,1:DECEASED,True,0.0,2.0,1.0,True,True,True,False,False,2,2000000.0
+52,MSK-L-240,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,9.395532194,1:DECEASED,True,0.0,2.0,1.0,True,True,True,False,False,2,2000000.0
+53,MSK-L-253,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,12.08935611,1:DECEASED,False,0.0,1.0,1.0,True,True,True,False,False,2,1000000.0
+54,MSK-L-261,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,21.09067017,1:DECEASED,False,0.0,1.0,1.0,True,True,True,False,False,2,1000000.0
+55,MSK-L-262,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,45.49934297,0:LIVING,False,0.0,1.0,1.0,True,True,True,False,False,2,1000000.0
+56,MSK-L-265,LUSC,Non-Small Cell Lung Cancer,Lung Squamous Cell Carcinoma,5.420499343,1:DECEASED,False,0.0,1.0,1.0,True,True,True,False,False,2,1000000.0
+57,MSK-L-293,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,21.12352168,0:LIVING,True,0.0,3.0,1.0,True,True,True,False,False,2,3000000.0
+58,MSK-L-296,LUSC,Non-Small Cell Lung Cancer,Lung Squamous Cell Carcinoma,0.591327201,0:LIVING,False,0.0,1.0,1.0,True,True,True,False,False,2,1000000.0
+59,MSK-L-306,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,15.80157687,1:DECEASED,False,0.0,1.0,1.0,True,True,True,False,False,2,1000000.0
+60,MSK-L-309,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,0.262812089,1:DECEASED,False,0.0,1.0,1.0,True,True,True,False,False,2,1000000.0
+61,MSK-L-310,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,33.96846255,1:DECEASED,False,0.0,1.0,1.0,True,True,True,False,False,2,1000000.0
+62,MSK-L-338,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,4.106438896,1:DECEASED,True,0.0,2.0,1.0,True,True,True,False,False,2,2000000.0
+63,MSK-L-341,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,13.69908016,1:DECEASED,False,0.0,1.0,1.0,True,True,True,False,False,2,1000000.0
+64,MSK-L-345,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,8.70565046,1:DECEASED,False,0.0,1.0,1.0,True,True,True,False,False,2,1000000.0
+65,MSK-L-355,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,0.427069645,0:LIVING,False,0.0,1.0,1.0,True,True,True,False,False,2,1000000.0
+66,MSK-L-358,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,4.894875164,1:DECEASED,True,0.0,2.0,1.0,True,True,True,False,False,2,2000000.0
+67,MSK-L-367,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,35.41392904,1:DECEASED,True,0.0,4.0,1.0,True,True,True,False,False,2,4000000.0
+68,MSK-L-369,LUSC,Non-Small Cell Lung Cancer,Lung Squamous Cell Carcinoma,2.759526938,1:DECEASED,False,0.0,1.0,1.0,True,True,True,False,False,2,1000000.0
+69,MSK-L-371,NSCLC,Non-Small Cell Lung Cancer,Non-Small Cell Lung Cancer,2.496714849,1:DECEASED,True,0.0,2.0,1.0,True,True,True,False,False,2,2000000.0
+70,MSK-L-380,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,27.89093298,1:DECEASED,False,0.0,1.0,1.0,True,True,True,False,False,2,1000000.0
+71,MSK-L-385,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,4.106438896,1:DECEASED,True,0.0,2.0,1.0,True,True,True,False,False,2,2000000.0
+72,MSK-L-398,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,55.84756899,1:DECEASED,True,0.0,2.0,1.0,True,True,True,False,False,2,2000000.0
+73,MSK-L-403,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,6.767411301,0:LIVING,True,0.0,2.0,1.0,True,True,True,False,False,2,2000000.0
+74,MSK-L-416,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,1.346911958,1:DECEASED,True,0.0,2.0,1.0,True,True,True,False,False,2,2000000.0
+75,MSK-L-440,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,28.61366623,1:DECEASED,False,0.0,1.0,1.0,True,True,True,False,False,2,1000000.0
+76,MSK-L-450,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,12.22076216,1:DECEASED,False,0.0,1.0,1.0,True,True,True,False,False,2,1000000.0
+77,MSK-L-474,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,9.855453351,1:DECEASED,False,0.0,1.0,1.0,True,True,True,False,False,2,1000000.0
+78,MSK-L-478,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,5.387647832,1:DECEASED,True,0.0,3.0,1.0,True,True,True,False,False,2,3000000.0
+79,MSK-L-485,LUSC,Non-Small Cell Lung Cancer,Lung Squamous Cell Carcinoma,4.369250986,1:DECEASED,False,0.0,1.0,1.0,True,True,True,False,False,2,1000000.0
+80,MSK-L-512,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,3.94218134,1:DECEASED,False,0.0,1.0,1.0,True,True,True,False,False,2,1000000.0
+81,MSK-L-528,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,0.952693824,0:LIVING,False,0.0,1.0,1.0,True,True,True,False,False,2,1000000.0
+82,MSK-L-536,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,1.478318003,1:DECEASED,False,0.0,1.0,1.0,True,True,True,False,False,2,1000000.0
+83,MSK-L-541,LUSC,Non-Small Cell Lung Cancer,Lung Squamous Cell Carcinoma,2.956636005,1:DECEASED,True,0.0,3.0,1.0,True,True,True,False,False,2,3000000.0
+84,MSK-L-543,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,11.39947438,1:DECEASED,True,0.0,2.0,1.0,True,True,True,False,False,2,2000000.0
+85,MSK-L-544,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,15.04599212,1:DECEASED,False,0.0,1.0,1.0,True,True,True,False,False,2,1000000.0
+86,MSK-L-546,NSCLC,Non-Small Cell Lung Cancer,Non-Small Cell Lung Cancer,0.952693824,1:DECEASED,False,0.0,1.0,1.0,True,True,True,False,False,2,1000000.0
+87,MSK-L-549,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,28.5151117,1:DECEASED,False,0.0,1.0,1.0,True,True,True,False,False,2,1000000.0
+88,MSK-L-551,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,6.931668857,0:LIVING,False,0.0,1.0,1.0,True,True,True,False,False,2,1000000.0
+89,MSK-L-573,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,9.26412615,1:DECEASED,False,0.0,1.0,1.0,True,True,True,False,False,2,1000000.0
+90,MSK-L-574,NSCLC,Non-Small Cell Lung Cancer,Non-Small Cell Lung Cancer,4.303547963,0:LIVING,False,0.0,1.0,1.0,True,True,True,False,False,2,1000000.0
+91,MSK-L-575,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,1.215505913,0:LIVING,False,0.0,1.0,1.0,True,True,True,False,False,2,1000000.0
+92,MSK-L-583,LUSC,Non-Small Cell Lung Cancer,Lung Squamous Cell Carcinoma,18.29829172,1:DECEASED,True,0.0,2.0,1.0,True,True,True,False,False,2,2000000.0
+93,MSK-L-607,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,51.51116951,0:LIVING,False,0.0,1.0,1.0,True,True,True,False,False,2,1000000.0
+94,MSK-L-612,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,18.00262812,1:DECEASED,True,0.0,3.0,1.0,True,True,True,False,False,2,3000000.0
+95,MSK-L-614,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,14.78318003,1:DECEASED,True,0.0,2.0,1.0,True,True,True,False,False,2,2000000.0
+96,MSK-L-621,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,19.44809461,1:DECEASED,True,0.0,3.0,1.0,True,True,True,False,False,2,3000000.0
+97,MSK-L-622,NSCLC,Non-Small Cell Lung Cancer,Non-Small Cell Lung Cancer,5.124835742,1:DECEASED,False,0.0,1.0,1.0,True,True,True,False,False,2,1000000.0
+98,MSK-L-624,LUSC,Non-Small Cell Lung Cancer,Lung Squamous Cell Carcinoma,11.03810775,1:DECEASED,False,0.0,1.0,1.0,True,True,True,False,False,2,1000000.0
+99,MSK-L-629,NSCLC,Non-Small Cell Lung Cancer,Non-Small Cell Lung Cancer,21.51773982,1:DECEASED,True,0.0,2.0,1.0,True,True,True,False,False,2,2000000.0
+100,MSK-L-632,NSCLC,Non-Small Cell Lung Cancer,Non-Small Cell Lung Cancer,15.3088042,1:DECEASED,True,0.0,2.0,1.0,True,True,True,False,False,2,2000000.0
+101,MSK-L-650,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,2.266754271,0:LIVING,False,0.0,1.0,1.0,True,True,True,False,False,2,1000000.0
+102,MSK-L-669,LUSC,Non-Small Cell Lung Cancer,Lung Squamous Cell Carcinoma,3.186596583,1:DECEASED,False,0.0,1.0,1.0,True,True,True,False,False,2,1000000.0
+103,MSK-L-672,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,4.237844941,1:DECEASED,False,0.0,1.0,1.0,True,True,True,False,False,2,1000000.0
+104,MSK-L-679,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,0.065703022,0:LIVING,False,0.0,1.0,1.0,True,True,True,False,False,2,1000000.0
+105,MSK-L-688,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,29.9934297,0:LIVING,False,0.0,1.0,1.0,True,True,True,False,False,2,1000000.0
+106,MSK-L-699,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,23.78449409,1:DECEASED,False,0.0,1.0,1.0,True,True,True,False,False,2,1000000.0
+107,MSK-L-702,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,1.248357424,1:DECEASED,True,0.0,2.0,1.0,True,True,True,False,False,2,2000000.0
+108,MSK-L-705,LUSC,Non-Small Cell Lung Cancer,Lung Squamous Cell Carcinoma,6.208935611,1:DECEASED,True,0.0,2.0,1.0,True,True,True,False,False,2,2000000.0
+109,MSK-L-716,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,20.72930355,1:DECEASED,True,0.0,2.0,1.0,True,True,True,False,False,2,2000000.0
+110,MSK-L-719,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,5.913272011,1:DECEASED,False,0.0,1.0,1.0,True,True,True,False,False,2,1000000.0
+111,MSK-L-726,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,1.445466491,0:LIVING,False,0.0,1.0,1.0,True,True,True,False,False,2,1000000.0
+112,MSK-L-727,LUSC,Non-Small Cell Lung Cancer,Lung Squamous Cell Carcinoma,17.37844941,1:DECEASED,True,0.0,2.0,1.0,True,True,True,False,False,2,2000000.0
+113,MSK-L-728,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,10.21681997,1:DECEASED,False,0.0,1.0,1.0,True,True,True,False,False,2,1000000.0
+114,MSK-L-737,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,7.260183968,1:DECEASED,True,0.0,3.0,1.0,True,True,True,False,False,2,3000000.0
+115,MSK-L-751,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,2.299605782,1:DECEASED,True,0.0,5.0,1.0,True,True,True,False,False,2,5000000.0
+116,MSK-L-752,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,20.26938239,0:LIVING,True,0.0,2.0,1.0,True,True,True,False,False,2,2000000.0
+117,MSK-L-753,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,18.00262812,0:LIVING,True,0.0,2.0,1.0,True,True,True,False,False,2,2000000.0
+118,MSK-L-754,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,31.86596583,0:LIVING,True,0.0,3.0,1.0,True,True,True,False,False,2,3000000.0
+119,MSK-L-770,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,6.931668857,0:LIVING,True,0.0,2.0,1.0,True,True,True,False,False,2,2000000.0
+120,MSK-L-780,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,25.36136662,1:DECEASED,True,0.0,2.0,1.0,True,True,True,False,False,2,2000000.0
+121,MSK-L-783,NSCLC,Non-Small Cell Lung Cancer,Non-Small Cell Lung Cancer,1.938239159,1:DECEASED,True,0.0,2.0,1.0,True,True,True,False,False,2,2000000.0
+122,MSK-L-788,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,12.74638633,1:DECEASED,True,0.0,2.0,1.0,True,True,True,False,False,2,2000000.0
+123,MSK-L-790,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,1.773981603,1:DECEASED,True,0.0,3.0,1.0,True,True,True,False,False,2,3000000.0
+124,MSK-L-811,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,1.018396846,0:LIVING,False,0.0,1.0,1.0,True,True,True,False,False,2,1000000.0
+125,MSK-L-821,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,2.825229961,1:DECEASED,True,0.0,2.0,1.0,True,True,True,False,False,2,2000000.0
+126,MSK-L-827,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,3.843626807,1:DECEASED,True,0.0,3.0,1.0,True,True,True,False,False,2,3000000.0
+127,MSK-L-841,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,34.75689882,0:LIVING,False,0.0,1.0,1.0,True,True,True,False,False,2,1000000.0
+128,MSK-L-848,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,25.2956636,1:DECEASED,False,0.0,1.0,1.0,True,True,True,False,False,2,1000000.0
+129,MSK-L-879,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,5.256241787,1:DECEASED,True,0.0,2.0,1.0,True,True,True,False,False,2,2000000.0
+130,MSK-L-904,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,8.114323259,1:DECEASED,True,0.0,2.0,1.0,True,True,True,False,False,2,2000000.0
+131,MSK-L-919,LUSC,Non-Small Cell Lung Cancer,Lung Squamous Cell Carcinoma,28.87647832,0:LIVING,True,0.0,2.0,1.0,True,True,True,False,False,2,2000000.0
+132,MSK-L-945,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,10.05256242,1:DECEASED,True,0.0,3.0,1.0,True,True,True,False,False,2,3000000.0
+133,MSK-L-948,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,25.03285151,0:LIVING,True,0.0,3.0,1.0,True,True,True,False,False,2,3000000.0
+134,MSK-L-950,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,26.21550591,0:LIVING,False,0.0,1.0,1.0,True,True,True,False,False,2,1000000.0
+135,MSK-L-951,LUSC,Non-Small Cell Lung Cancer,Lung Squamous Cell Carcinoma,0.952693824,0:LIVING,False,0.0,1.0,1.0,True,True,True,False,False,2,1000000.0
+136,MSK-L-952,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,16.85282523,1:DECEASED,True,0.0,2.0,1.0,True,True,True,False,False,2,2000000.0
+137,MSK-L-956,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,2.956636005,1:DECEASED,False,0.0,1.0,1.0,True,True,True,False,False,2,1000000.0
+138,MSK-L-960,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,18.49540079,1:DECEASED,False,0.0,1.0,1.0,True,True,True,False,False,2,1000000.0
+139,MSK-L-964,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,10.54533509,0:LIVING,True,0.0,3.0,1.0,True,True,True,False,False,2,3000000.0
+140,MSK-L-970,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,8.475689882,1:DECEASED,True,0.0,3.0,1.0,True,True,True,False,False,2,3000000.0
+141,MSK-L-971,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,1.281208936,1:DECEASED,True,0.0,4.0,1.0,True,True,True,False,False,2,4000000.0
+142,MSK-L-991,NSCLC,Non-Small Cell Lung Cancer,Non-Small Cell Lung Cancer,11.26806833,1:DECEASED,False,0.0,1.0,1.0,True,True,True,False,False,2,1000000.0
+143,NCI-L-003,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,41.55716163,1:DECEASED,True,0.0,4.0,1.0,True,True,True,False,False,2,4000000.0
+144,NCI-L-006,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,32.16162943,0:LIVING,True,0.0,2.0,1.0,True,True,True,False,False,2,2000000.0
+145,NCI-L-010,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,49.63863338,1:DECEASED,True,0.0,4.0,1.0,True,True,True,False,False,2,4000000.0
+146,NCI-L-013,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,42.50985545,1:DECEASED,False,0.0,1.0,1.0,True,True,True,False,False,2,1000000.0
+147,NCI-L-015,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,21.02496715,1:DECEASED,False,0.0,1.0,1.0,True,True,True,False,False,2,1000000.0
+148,NCI-L-016,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,31.80026281,1:DECEASED,False,0.0,1.0,1.0,True,True,True,False,False,2,1000000.0
+149,NCI-L-022,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,59.59264126,1:DECEASED,False,0.0,1.0,1.0,True,True,True,False,False,2,1000000.0
+150,NCI-L-023,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,15.37450723,1:DECEASED,False,0.0,1.0,1.0,True,True,True,False,False,2,1000000.0
+151,NCI-L-025,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,12.61498029,0:LIVING,False,0.0,1.0,1.0,True,True,True,False,False,2,1000000.0
+152,NCI-L-027,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,3.843626807,1:DECEASED,False,0.0,1.0,1.0,True,True,True,False,False,2,1000000.0
+153,NCI-L-031,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,16.55716163,1:DECEASED,True,0.0,3.0,1.0,True,True,True,False,False,2,3000000.0
+154,NCI-L-032,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,31.93166886,1:DECEASED,False,0.0,1.0,1.0,True,True,True,False,False,2,1000000.0
+155,NCI-L-034,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,25.91984231,1:DECEASED,False,0.0,1.0,1.0,True,True,True,False,False,2,1000000.0
+156,NCI-L-035,LUSC,Non-Small Cell Lung Cancer,Lung Squamous Cell Carcinoma,9.756898817,1:DECEASED,False,0.0,1.0,1.0,True,True,True,False,False,2,1000000.0
+157,NCI-L-037,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,1.051248357,0:LIVING,True,0.0,2.0,1.0,True,True,True,False,False,2,2000000.0
+158,NCI-L-038,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,0.262812089,0:LIVING,False,0.0,1.0,1.0,True,True,True,False,False,2,1000000.0
+159,NCI-L-039,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,2.628120894,0:LIVING,False,0.0,1.0,1.0,True,True,True,False,False,2,1000000.0
+160,NCI-L-047,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,8.14717477,1:DECEASED,False,0.0,1.0,1.0,True,True,True,False,False,2,1000000.0
+161,NCI-L-048,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,8.541392904,1:DECEASED,True,0.0,3.0,1.0,True,True,True,False,False,2,3000000.0
+162,NCI-L-049,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,0.952693824,0:LIVING,True,0.0,2.0,1.0,True,True,True,False,False,2,2000000.0
+163,NCI-L-051,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,7.457293035,1:DECEASED,False,0.0,1.0,1.0,True,True,True,False,False,2,1000000.0
+164,NCI-L-052,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,0.295663601,0:LIVING,True,0.0,2.0,1.0,True,True,True,False,False,2,2000000.0
+165,NCI-L-053,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,10.8738502,1:DECEASED,True,0.0,4.0,1.0,True,True,True,False,False,2,4000000.0
+166,NCI-L-054,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,12.61498029,1:DECEASED,False,0.0,1.0,1.0,True,True,True,False,False,2,1000000.0
+167,NCI-L-055,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,36.95795007,1:DECEASED,True,0.0,2.0,1.0,True,True,True,False,False,2,2000000.0
+168,NCI-L-056,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,14.48751643,1:DECEASED,False,0.0,1.0,1.0,True,True,True,False,False,2,1000000.0
+169,NCI-L-057,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,0.492772668,1:DECEASED,False,0.0,1.0,1.0,True,True,True,False,False,2,1000000.0
+170,NCI-L-058,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,27.89093298,1:DECEASED,False,0.0,1.0,1.0,True,True,True,False,False,2,1000000.0
+171,NCI-L-061,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,28.38370565,1:DECEASED,True,0.0,2.0,1.0,True,True,True,False,False,2,2000000.0
+172,NCI-L-063,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,2.003942181,1:DECEASED,False,0.0,1.0,1.0,True,True,True,False,False,2,1000000.0
+173,NCI-L-067,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,11.59658344,0:LIVING,True,0.0,2.0,1.0,True,True,True,False,False,2,2000000.0
+174,NCI-L-072,NSCLC,Non-Small Cell Lung Cancer,Non-Small Cell Lung Cancer,35.74244415,1:DECEASED,True,0.0,2.0,1.0,True,True,True,False,False,2,2000000.0
+175,NCI-L-073,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,16.55716163,1:DECEASED,True,0.0,3.0,1.0,True,True,True,False,False,2,3000000.0
+176,NCI-L-076,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,19.90801577,1:DECEASED,True,0.0,2.0,1.0,True,True,True,False,False,2,2000000.0
+177,NCI-L-077,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,1.149802891,0:LIVING,True,0.0,2.0,1.0,True,True,True,False,False,2,2000000.0
+178,NCI-L-081,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,37.87779238,0:LIVING,True,0.0,7.0,1.0,True,True,True,False,False,2,7000000.0
+179,NCI-L-082,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,11.07095926,1:DECEASED,False,0.0,1.0,1.0,True,True,True,False,False,2,1000000.0
+180,NCI-L-084,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,33.67279895,1:DECEASED,False,0.0,1.0,1.0,True,True,True,False,False,2,1000000.0
+181,NCI-L-088,LUSC,Non-Small Cell Lung Cancer,Lung Squamous Cell Carcinoma,21.28777924,1:DECEASED,False,0.0,1.0,1.0,True,True,True,False,False,2,1000000.0
+182,NCI-L-089,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,15.3088042,1:DECEASED,False,0.0,1.0,1.0,True,True,True,False,False,2,1000000.0
+183,NCI-L-092,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,10.77529566,0:LIVING,True,0.0,3.0,1.0,True,True,True,False,False,2,3000000.0
+184,NCI-L-113,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,8.015768725,1:DECEASED,False,0.0,1.0,1.0,True,True,True,False,False,2,1000000.0
+185,NCI-L-114,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,6.73455979,1:DECEASED,False,0.0,1.0,1.0,True,True,True,False,False,2,1000000.0
+186,NCI-L-119,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,28.38370565,1:DECEASED,True,0.0,3.0,1.0,True,True,True,False,False,2,3000000.0
+187,NCI-L-127,LUSC,Non-Small Cell Lung Cancer,Lung Squamous Cell Carcinoma,12.51642576,1:DECEASED,True,0.0,2.0,1.0,True,True,True,False,False,2,2000000.0
+188,NCI-L-129,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,41.1629435,0:LIVING,True,0.0,2.0,1.0,True,True,True,False,False,2,2000000.0
+189,NCI-L-130,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,17.54270696,1:DECEASED,False,0.0,1.0,1.0,True,True,True,False,False,2,1000000.0
+190,NCI-L-142,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,16.85282523,1:DECEASED,False,0.0,1.0,1.0,True,True,True,False,False,2,1000000.0
+191,NCI-L-145,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,20.66360053,1:DECEASED,False,0.0,1.0,1.0,True,True,True,False,False,2,1000000.0
+192,NCI-L-146,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,10.51248357,1:DECEASED,True,0.0,2.0,1.0,True,True,True,False,False,2,2000000.0
+193,NCI-L-147,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,22.14191853,1:DECEASED,False,0.0,1.0,1.0,True,True,True,False,False,2,1000000.0
+194,NCI-L-150,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,118.2325887,1:DECEASED,True,0.0,2.0,1.0,True,True,True,False,False,2,2000000.0
+195,NCI-L-160,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,7.917214192,1:DECEASED,True,0.0,2.0,1.0,True,True,True,False,False,2,2000000.0
+196,NCI-L-162,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,10.15111695,1:DECEASED,True,0.0,3.0,1.0,True,True,True,False,False,2,3000000.0
+197,NCI-L-165,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,11.4651774,1:DECEASED,True,0.0,2.0,1.0,True,True,True,False,False,2,2000000.0
+198,NCI-L-167,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,1.741130092,0:LIVING,True,0.0,2.0,1.0,True,True,True,False,False,2,2000000.0
+199,NCI-L-168,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,15.73587385,1:DECEASED,True,0.0,3.0,1.0,True,True,True,False,False,2,3000000.0
+200,NCI-L-169,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,49.14586071,1:DECEASED,True,0.0,2.0,1.0,True,True,True,False,False,2,2000000.0
+201,NCI-L-171,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,19.64520368,1:DECEASED,True,0.0,3.0,1.0,True,True,True,False,False,2,3000000.0
+202,NCI-L-172,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,29.73061761,1:DECEASED,False,0.0,1.0,1.0,True,True,True,False,False,2,1000000.0
+203,NCI-L-174,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,37.87779238,1:DECEASED,True,0.0,2.0,1.0,True,True,True,False,False,2,2000000.0
+204,NCI-L-183,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,3.810775296,1:DECEASED,True,0.0,3.0,1.0,True,True,True,False,False,2,3000000.0
+205,NCI-L-187,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,23.68593955,1:DECEASED,True,0.0,7.0,1.0,True,True,True,False,False,2,7000000.0
+206,NCI-L-192,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,0.886990802,1:DECEASED,True,0.0,2.0,1.0,True,True,True,False,False,2,2000000.0
+207,NCI-L-199,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,145.8278581,1:DECEASED,True,0.0,5.0,1.0,True,True,True,False,False,2,5000000.0
+208,P-0000604,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,60.282523,1:DECEASED,True,4.0,2.0,0.3333333333333333,False,False,False,False,False,1,0.49999987500003124
+209,P-0000840,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,24.57293035,1:DECEASED,True,4.0,3.0,0.42857142857142855,False,False,False,False,False,1,0.7499998125000469
+210,P-0000913,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,86.4651774,1:DECEASED,True,22.0,5.0,0.18518518518518517,False,False,False,True,True,0,0.2272727169421492
+211,P-0001123,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,50.72273325,1:DECEASED,True,7.0,7.0,0.5,False,False,False,False,False,1,0.9999998571428775
+212,P-0001442,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,89.02759527,0:LIVING,True,23.0,11.0,0.3235294117647059,False,False,False,False,False,1,0.4782608487712674
+213,P-0001683,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,87.45072273,0:LIVING,False,5.0,1.0,0.16666666666666666,False,False,False,True,True,0,0.199999960000008
+214,P-0003156,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,38.86333771,1:DECEASED,False,8.0,1.0,0.1111111111111111,False,False,False,True,True,0,0.12499998437500197
+215,P-0003297,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,81.20893561,0:LIVING,False,1.0,0.0,0.0,False,False,False,True,True,0,0.0
+216,P-0003322,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,62.22076216,1:DECEASED,False,11.0,1.0,0.08333333333333333,False,False,False,True,True,0,0.09090908264462885
+217,P-0003879,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,44.31668857,0:LIVING,False,16.0,1.0,0.058823529411764705,False,False,False,True,True,0,0.06249999609375024
+218,P-0005467,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,82.91721419,0:LIVING,True,8.0,4.0,0.3333333333333333,False,False,False,False,False,1,0.4999999375000079
+219,P-0006047,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,60.70959264,0:LIVING,False,4.0,0.0,0.0,False,False,False,True,True,0,0.0
+220,P-0006116,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,40.76872536,1:DECEASED,False,8.0,1.0,0.1111111111111111,False,False,False,True,True,0,0.12499998437500197
+221,P-0006127,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,84.52693824,1:DECEASED,True,8.0,2.0,0.2,False,False,False,False,True,1,0.24999996875000394
+222,P-0006139,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,1.544021025,0:LIVING,False,11.0,0.0,0.0,False,False,False,True,True,0,0.0
+223,P-0006198,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,50.13140604,1:DECEASED,False,2.0,0.0,0.0,False,False,False,True,True,0,0.0
+224,P-0006210,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,1.281208936,0:LIVING,False,4.0,1.0,0.2,False,False,False,False,True,1,0.24999993750001562
+225,P-0006511,LUSC,Non-Small Cell Lung Cancer,Lung Squamous Cell Carcinoma,35.41392904,0:LIVING,False,14.0,1.0,0.06666666666666667,False,False,False,True,True,0,0.07142856632653098
+226,P-0007082,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,42.14848883,1:DECEASED,True,28.0,2.0,0.06666666666666667,False,False,False,True,True,0,0.07142856887755111
+227,P-0007534,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,75.22996058,0:LIVING,False,1.0,0.0,0.0,False,False,False,True,True,0,0.0
+228,P-0007633,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,69.7109067,1:DECEASED,False,3.0,0.0,0.0,False,False,False,True,True,0,0.0
+229,P-0007745,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,55.09198423,1:DECEASED,False,8.0,0.0,0.0,False,False,False,True,True,0,0.0
+230,P-0008282,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,16.85282523,0:LIVING,False,8.0,0.0,0.0,False,False,False,True,True,0,0.0
+231,P-0008422,LUSC,Non-Small Cell Lung Cancer,Lung Squamous Cell Carcinoma,52.6609724,0:LIVING,False,10.0,0.0,0.0,False,False,False,True,True,0,0.0
+232,P-0008599,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,26.14980289,0:LIVING,False,6.0,1.0,0.14285714285714285,False,False,False,True,True,0,0.16666663888889352
+233,P-0008602,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,18.79106439,1:DECEASED,False,7.0,1.0,0.125,False,False,False,True,True,0,0.1428571224489825
+234,P-0008978,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,51.7739816,1:DECEASED,True,19.0,7.0,0.2692307692307692,False,False,False,False,True,1,0.36842103324099823
+235,P-0009261,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,54.04073587,1:DECEASED,True,50.0,14.0,0.21875,False,False,False,False,True,1,0.2799999944000001
+236,P-0009403,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,54.33639947,1:DECEASED,True,69.0,3.0,0.041666666666666664,False,False,False,True,True,0,0.0434782602394455
+237,P-0009423,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,17.24704336,0:LIVING,True,7.0,12.0,0.631578947368421,True,False,False,False,False,1,1.71428546938779
+238,P-0009748,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,85.97240473,0:LIVING,False,9.0,0.0,0.0,False,False,False,True,True,0,0.0
+239,P-0009948,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,54.23784494,0:LIVING,False,19.0,1.0,0.05,False,False,False,True,True,0,0.05263157617728546
+240,P-0010177,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,67.60840999,0:LIVING,False,2.0,0.0,0.0,False,False,False,True,True,0,0.0
+241,P-0010300,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,6.767411301,0:LIVING,False,4.0,1.0,0.2,False,False,False,False,True,1,0.24999993750001562
+242,P-0010836,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,37.0565046,0:LIVING,False,4.0,0.0,0.0,False,False,False,True,True,0,0.0
+243,P-0010927,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,85.47963206,0:LIVING,False,13.0,1.0,0.07142857142857142,False,False,False,True,True,0,0.07692307100591762
+244,P-0011107,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,14.48751643,0:LIVING,False,18.0,0.0,0.0,False,False,False,True,True,0,0.0
+245,P-0011309,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,33.96846255,1:DECEASED,True,5.0,2.0,0.2857142857142857,False,False,False,False,True,1,0.399999920000016
+246,P-0011395,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,48.85019711,1:DECEASED,False,13.0,1.0,0.07142857142857142,False,False,False,True,True,0,0.07692307100591762
+247,P-0012061,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,35.93955322,1:DECEASED,False,4.0,0.0,0.0,False,False,False,True,True,0,0.0
+248,P-0012098,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,89.4218134,1:DECEASED,True,9.0,10.0,0.5263157894736842,True,False,False,False,False,1,1.1111109876543348
+249,P-0012149,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,42.70696452,0:LIVING,True,3.0,2.0,0.4,False,False,False,False,False,1,0.6666664444445185
+250,P-0012160,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,33.47568988,1:DECEASED,True,3.0,6.0,0.6666666666666666,True,False,False,False,False,1,1.9999993333335555
+251,P-0012261,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,14.02759527,1:DECEASED,False,4.0,1.0,0.2,False,False,False,False,True,1,0.24999993750001562
+252,P-0012592,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,29.17214192,1:DECEASED,True,2.0,9.0,0.8181818181818182,True,True,False,False,False,2,4.499997750001125
+253,P-0012782,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,63.5348226,1:DECEASED,True,3.0,5.0,0.625,True,False,False,False,False,1,1.6666661111112961
+254,P-0012908,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,19.74375821,1:DECEASED,True,7.0,2.0,0.2222222222222222,False,False,False,False,True,1,0.285714244897965
+255,P-0013719,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,35.74244415,1:DECEASED,True,12.0,2.0,0.14285714285714285,False,False,False,True,True,0,0.16666665277777895
+256,P-0013721,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,33.80420499,0:LIVING,False,6.0,0.0,0.0,False,False,False,True,True,0,0.0
+257,P-0013855,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,118.0354796,1:DECEASED,False,5.0,0.0,0.0,False,False,False,True,True,0,0.0
+258,P-0014162,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,10.15111695,1:DECEASED,False,77.0,0.0,0.0,False,False,False,True,True,0,0.0
+259,P-0014177,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,24.34296978,1:DECEASED,True,1.0,2.0,0.6666666666666666,True,False,False,False,False,1,1.9999980000020001
+260,P-0014232,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,25.09855453,0:LIVING,True,13.0,7.0,0.35,False,False,False,False,False,1,0.5384614970414233
+261,P-0014304,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,16.06438896,0:LIVING,False,4.0,0.0,0.0,False,False,False,True,True,0,0.0
+262,P-0014524,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,27.49671485,0:LIVING,False,16.0,1.0,0.058823529411764705,False,False,False,True,True,0,0.06249999609375024
+263,P-0015129,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,17.24704336,0:LIVING,True,5.0,2.0,0.2857142857142857,False,False,False,False,True,1,0.399999920000016
+264,P-0015590,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,27.79237845,1:DECEASED,True,20.0,2.0,0.09090909090909091,False,False,False,True,True,0,0.09999999500000024
+265,P-0015593,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,26.87253614,1:DECEASED,False,5.0,0.0,0.0,False,False,False,True,True,0,0.0
+266,P-0015636,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,3.94218134,1:DECEASED,False,3.0,0.0,0.0,False,False,False,True,True,0,0.0
+267,P-0016054,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,79.82917214,1:DECEASED,True,21.0,3.0,0.125,False,False,False,True,True,0,0.14285713605442207
+268,P-0016223,NSCLC,Non-Small Cell Lung Cancer,Non-Small Cell Lung Cancer,65.86727989,0:LIVING,True,47.0,8.0,0.14545454545454545,False,False,False,True,True,0,0.1702127623358987
+269,P-0016429,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,7.752956636,1:DECEASED,False,1.0,1.0,0.5,False,False,False,False,False,1,0.9999990000010001
+270,P-0016431,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,56.20893561,0:LIVING,False,12.0,0.0,0.0,False,False,False,True,True,0,0.0
+271,P-0016524,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,9.26412615,1:DECEASED,True,14.0,2.0,0.125,False,False,False,True,True,0,0.14285713265306196
+272,P-0016695,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,21.78055191,0:LIVING,False,15.0,0.0,0.0,False,False,False,True,True,0,0.0
+273,P-0016886,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,12.0565046,0:LIVING,True,8.0,10.0,0.5555555555555556,True,False,False,False,False,1,1.2499998437500197
+274,P-0016903,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,24.83574244,1:DECEASED,False,4.0,1.0,0.2,False,False,False,False,True,1,0.24999993750001562
+275,P-0017013,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,18.2325887,0:LIVING,False,7.0,1.0,0.125,False,False,False,True,True,0,0.1428571224489825
+276,P-0017214,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,45.95926413,1:DECEASED,True,2.0,2.0,0.5,False,False,False,False,False,1,0.99999950000025
+277,P-0017284,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,21.15637319,0:LIVING,False,9.0,1.0,0.1,False,False,False,True,True,0,0.11111109876543349
+278,P-0017298,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,16.7542707,1:DECEASED,True,6.0,4.0,0.4,False,False,False,False,False,1,0.6666665555555741
+279,P-0017319,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,154.0407359,0:LIVING,False,33.0,0.0,0.0,False,False,False,True,True,0,0.0
+280,P-0017432,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,1.905387648,1:DECEASED,True,8.0,2.0,0.2,False,False,False,False,True,1,0.24999996875000394
+281,P-0017443,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,12.97634691,1:DECEASED,True,2.0,2.0,0.5,False,False,False,False,False,1,0.99999950000025
+282,P-0017663,NSCLC,Non-Small Cell Lung Cancer,Non-Small Cell Lung Cancer,46.84625493,1:DECEASED,False,3.0,0.0,0.0,False,False,False,True,True,0,0.0
+283,P-0017752,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,49.1130092,0:LIVING,False,31.0,0.0,0.0,False,False,False,True,True,0,0.0
+284,P-0017832,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,7.227332457,1:DECEASED,False,2.0,1.0,0.3333333333333333,False,False,False,False,False,1,0.499999750000125
+285,P-0018022,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,59.13272011,0:LIVING,True,16.0,5.0,0.23809523809523808,False,False,False,False,True,1,0.3124999804687512
+286,P-0018095,NSCLC,Non-Small Cell Lung Cancer,Non-Small Cell Lung Cancer,29.07358739,1:DECEASED,False,6.0,0.0,0.0,False,False,False,True,True,0,0.0
+287,P-0018196,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,0.689881735,0:LIVING,True,9.0,2.0,0.18181818181818182,False,False,False,True,True,0,0.22222219753086697
+288,P-0018280,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,20.33508541,0:LIVING,True,2.0,14.0,0.875,True,True,False,False,False,2,6.99999650000175
+289,P-0018434,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,21.28777924,1:DECEASED,True,8.0,3.0,0.2727272727272727,False,False,False,False,True,1,0.3749999531250059
+290,P-0018513,NSCLC,Non-Small Cell Lung Cancer,Non-Small Cell Lung Cancer,35.54533509,1:DECEASED,False,3.0,0.0,0.0,False,False,False,True,True,0,0.0
+291,P-0018682,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,18.2325887,1:DECEASED,True,21.0,2.0,0.08695652173913043,False,False,False,True,True,0,0.09523809070294806
+292,P-0018865,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,52.69382392,0:LIVING,False,20.0,1.0,0.047619047619047616,False,False,False,True,True,0,0.04999999750000012
+293,P-0019128,NSCLC,Non-Small Cell Lung Cancer,Non-Small Cell Lung Cancer,58.44283837,0:LIVING,False,4.0,0.0,0.0,False,False,False,True,True,0,0.0
+294,P-0019268,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,31.04467806,1:DECEASED,False,5.0,1.0,0.16666666666666666,False,False,False,True,True,0,0.199999960000008
+295,P-0019491,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,46.71484888,0:LIVING,False,5.0,0.0,0.0,False,False,False,True,True,0,0.0
+296,P-0019607,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,77.13534823,0:LIVING,True,12.0,2.0,0.14285714285714285,False,False,False,True,True,0,0.16666665277777895
+297,P-0019684,NSCLC,Non-Small Cell Lung Cancer,Non-Small Cell Lung Cancer,3.318002628,0:LIVING,True,11.0,2.0,0.15384615384615385,False,False,False,True,True,0,0.1818181652892577
+298,P-0019687,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,35.51248357,1:DECEASED,True,83.0,29.0,0.25892857142857145,False,False,False,False,True,1,0.3493975861518363
+299,P-0019805,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,32.52299606,1:DECEASED,True,7.0,5.0,0.4166666666666667,False,False,False,False,False,1,0.7142856122449125
+300,P-0019852,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,14.91458607,1:DECEASED,True,11.0,5.0,0.3125,False,False,False,False,False,1,0.4545454132231443
+301,P-0019856,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,25.49277267,1:DECEASED,True,11.0,3.0,0.21428571428571427,False,False,False,False,True,1,0.2727272479338866
+302,P-0020170,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,2.660972405,0:LIVING,True,9.0,2.0,0.18181818181818182,False,False,False,True,True,0,0.22222219753086697
+303,P-0020450,LUSC,Non-Small Cell Lung Cancer,Lung Squamous Cell Carcinoma,9.888304862,0:LIVING,False,5.0,0.0,0.0,False,False,False,True,True,0,0.0
+304,P-0020513,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,41.06438896,1:DECEASED,False,12.0,0.0,0.0,False,False,False,True,True,0,0.0
+305,P-0020825,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,22.86465177,0:LIVING,False,20.0,0.0,0.0,False,False,False,True,True,0,0.0
+306,P-0021093,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,8.804204993,1:DECEASED,False,9.0,1.0,0.1,False,False,False,True,True,0,0.11111109876543349
+307,P-0021112,NSCLC,Non-Small Cell Lung Cancer,Non-Small Cell Lung Cancer,25.13140604,1:DECEASED,True,14.0,2.0,0.125,False,False,False,True,True,0,0.14285713265306196
+308,P-0021228,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,94.77660972,0:LIVING,False,6.0,0.0,0.0,False,False,False,True,True,0,0.0
+309,P-0021500,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,1.642575558,0:LIVING,True,4.0,2.0,0.3333333333333333,False,False,False,False,False,1,0.49999987500003124
+310,P-0021574,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,57.85151117,1:DECEASED,True,33.0,2.0,0.05714285714285714,False,False,False,True,True,0,0.060606058769513374
+311,P-0021769,CUPNOS,Cancer of Unknown Primary,"Cancer of Unknown Primary, NOS",54.17214192,0:LIVING,False,176.0,0.0,0.0,False,False,False,True,True,0,0.0
+312,P-0021797,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,54.04073587,0:LIVING,True,4.0,34.0,0.8947368421052632,True,True,False,False,False,2,8.499997875000531
+313,P-0021843,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,28.84362681,0:LIVING,False,4.0,0.0,0.0,False,False,False,True,True,0,0.0
+314,P-0021877,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,20.20367937,0:LIVING,True,3.0,2.0,0.4,False,False,False,False,False,1,0.6666664444445185
+315,P-0022097,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,48.94875164,1:DECEASED,True,18.0,20.0,0.5263157894736842,True,False,False,False,False,1,1.1111110493827194
+316,P-0022101,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,128.7779238,0:LIVING,False,0.0,1.0,1.0,True,True,True,False,False,2,1000000.0
+317,P-0022198,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,57.42444152,0:LIVING,True,16.0,4.0,0.2,False,False,False,False,True,1,0.24999998437500096
+318,P-0022254,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,53.31800263,0:LIVING,False,3.0,1.0,0.25,False,False,False,False,True,1,0.33333322222225925
+319,P-0022372,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,53.31800263,0:LIVING,False,9.0,0.0,0.0,False,False,False,True,True,0,0.0
+320,P-0022461,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,19.94086728,1:DECEASED,False,4.0,0.0,0.0,False,False,False,True,True,0,0.0
+321,P-0022659,NSCLC,Non-Small Cell Lung Cancer,Non-Small Cell Lung Cancer,53.02233903,0:LIVING,False,2.0,0.0,0.0,False,False,False,True,True,0,0.0
+322,P-0022671,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,4.402102497,1:DECEASED,False,9.0,1.0,0.1,False,False,False,True,True,0,0.11111109876543349
+323,P-0022765,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,2.398160315,0:LIVING,False,1.0,0.0,0.0,False,False,False,True,True,0,0.0
+324,P-0022808,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,13.27201051,1:DECEASED,False,6.0,1.0,0.14285714285714285,False,False,False,True,True,0,0.16666663888889352
+325,P-0023007,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,6.241787122,1:DECEASED,True,2.0,3.0,0.6,True,False,False,False,False,1,1.499999250000375
+326,P-0023023,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,39.32325887,1:DECEASED,True,22.0,4.0,0.15384615384615385,False,False,False,True,True,0,0.18181817355371938
+327,P-0023100,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,48.25886991,1:DECEASED,False,11.0,0.0,0.0,False,False,False,True,True,0,0.0
+328,P-0023157,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,99.44152431,0:LIVING,True,15.0,9.0,0.375,False,False,False,False,False,1,0.5999999600000027
+329,P-0023248,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,24.34296978,0:LIVING,False,2.0,0.0,0.0,False,False,False,True,True,0,0.0
+330,P-0023310,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,1.839684625,0:LIVING,False,11.0,0.0,0.0,False,False,False,True,True,0,0.0
+331,P-0023316,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,10.18396846,1:DECEASED,False,8.0,1.0,0.1111111111111111,False,False,False,True,True,0,0.12499998437500197
+332,P-0023379,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,0.85413929,0:LIVING,True,9.0,5.0,0.35714285714285715,False,False,False,False,False,1,0.5555554938271674
+333,P-0023468,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,51.80683311,0:LIVING,False,5.0,0.0,0.0,False,False,False,True,True,0,0.0
+334,P-0023504,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,60.70959264,0:LIVING,False,3.0,0.0,0.0,False,False,False,True,True,0,0.0
+335,P-0023534,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,22.83180026,0:LIVING,False,12.0,1.0,0.07692307692307693,False,False,False,True,True,0,0.08333332638888948
+336,P-0023569,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,2.332457293,1:DECEASED,False,10.0,1.0,0.09090909090909091,False,False,False,True,True,0,0.09999999000000101
+337,P-0023576,NSCLC,Non-Small Cell Lung Cancer,Non-Small Cell Lung Cancer,1.281208936,0:LIVING,False,4.0,1.0,0.2,False,False,False,False,True,1,0.24999993750001562
+338,P-0023596,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,5.814717477,1:DECEASED,True,7.0,2.0,0.2222222222222222,False,False,False,False,True,1,0.285714244897965
+339,P-0023678,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,16.49145861,1:DECEASED,False,4.0,1.0,0.2,False,False,False,False,True,1,0.24999993750001562
+340,P-0023790,NSCLC,Non-Small Cell Lung Cancer,Non-Small Cell Lung Cancer,7.950065703,1:DECEASED,True,5.0,2.0,0.2857142857142857,False,False,False,False,True,1,0.399999920000016
+341,P-0023860,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,48.85019711,0:LIVING,False,10.0,0.0,0.0,False,False,False,True,True,0,0.0
+342,P-0023926,NSCLC,Non-Small Cell Lung Cancer,Non-Small Cell Lung Cancer,19.1195795,1:DECEASED,False,7.0,1.0,0.125,False,False,False,True,True,0,0.1428571224489825
+343,P-0024025,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,0.624178712,0:LIVING,True,41.0,10.0,0.19607843137254902,False,False,False,True,True,0,0.24390243307555043
+344,P-0024143,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,1.938239159,1:DECEASED,False,5.0,1.0,0.16666666666666666,False,False,False,True,True,0,0.199999960000008
+345,P-0024197,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,4.270696452,1:DECEASED,False,6.0,1.0,0.14285714285714285,False,False,False,True,True,0,0.16666663888889352
+346,P-0024267,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,31.11038108,1:DECEASED,False,7.0,0.0,0.0,False,False,False,True,True,0,0.0
+347,P-0024297,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,2.463863338,1:DECEASED,True,7.0,2.0,0.2222222222222222,False,False,False,False,True,1,0.285714244897965
+348,P-0024333,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,50.55847569,0:LIVING,False,5.0,0.0,0.0,False,False,False,True,True,0,0.0
+349,P-0024335,NSCLC,Non-Small Cell Lung Cancer,Non-Small Cell Lung Cancer,50.85413929,0:LIVING,True,6.0,3.0,0.3333333333333333,False,False,False,False,False,1,0.49999991666668053
+350,P-0024421,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,13.33771353,1:DECEASED,False,8.0,0.0,0.0,False,False,False,True,True,0,0.0
+351,P-0024480,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,18.29829172,1:DECEASED,True,7.0,2.0,0.2222222222222222,False,False,False,False,True,1,0.285714244897965
+352,P-0024487,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,40.67017083,0:LIVING,False,6.0,1.0,0.14285714285714285,False,False,False,True,True,0,0.16666663888889352
+353,P-0024501,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,4.829172142,1:DECEASED,False,1.0,1.0,0.5,False,False,False,False,False,1,0.9999990000010001
+354,P-0024516,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,0.788436268,0:LIVING,False,7.0,1.0,0.125,False,False,False,True,True,0,0.1428571224489825
+355,P-0024561,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,14.84888305,1:DECEASED,False,2.0,0.0,0.0,False,False,False,True,True,0,0.0
+356,P-0024602,NSCLC,Non-Small Cell Lung Cancer,Non-Small Cell Lung Cancer,49.73718791,0:LIVING,True,18.0,2.0,0.1,False,False,False,True,True,0,0.11111110493827195
+357,P-0024670,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,0.624178712,0:LIVING,False,8.0,1.0,0.1111111111111111,False,False,False,True,True,0,0.12499998437500197
+358,P-0024675,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,0.919842313,0:LIVING,False,0.0,1.0,1.0,True,True,True,False,False,2,1000000.0
+359,P-0024677,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,0.624178712,0:LIVING,False,9.0,1.0,0.1,False,False,False,True,True,0,0.11111109876543349
+360,P-0024764,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,30.94612352,1:DECEASED,False,14.0,1.0,0.06666666666666667,False,False,False,True,True,0,0.07142856632653098
+361,P-0024841,LUSC,Non-Small Cell Lung Cancer,Lung Squamous Cell Carcinoma,35.61103811,1:DECEASED,False,1.0,0.0,0.0,False,False,False,True,True,0,0.0
+362,P-0024900,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,13.14060447,1:DECEASED,True,14.0,4.0,0.2222222222222222,False,False,False,False,True,1,0.2857142653061239
+363,P-0024907,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,43.46254928,0:LIVING,True,7.0,2.0,0.2222222222222222,False,False,False,False,True,1,0.285714244897965
+364,P-0024950,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,22.01051248,1:DECEASED,False,7.0,1.0,0.125,False,False,False,True,True,0,0.1428571224489825
+365,P-0025100,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,41.13009198,0:LIVING,True,12.0,3.0,0.2,False,False,False,False,True,1,0.2499999791666684
+366,P-0025152,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,0.722733246,0:LIVING,True,5.0,2.0,0.2857142857142857,False,False,False,False,True,1,0.399999920000016
+367,P-0025284,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,20.40078844,1:DECEASED,False,8.0,0.0,0.0,False,False,False,True,True,0,0.0
+368,P-0025344,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,49.4086728,0:LIVING,False,1.0,0.0,0.0,False,False,False,True,True,0,0.0
+369,P-0025398,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,49.86859396,0:LIVING,False,1.0,1.0,0.5,False,False,False,False,False,1,0.9999990000010001
+370,P-0025531,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,100.9198423,1:DECEASED,False,7.0,1.0,0.125,False,False,False,True,True,0,0.1428571224489825
+371,P-0025642,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,0.952693824,1:DECEASED,True,6.0,2.0,0.25,False,False,False,False,True,1,0.33333327777778704
+372,P-0025657,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,16.13009198,0:LIVING,True,28.0,2.0,0.06666666666666667,False,False,False,True,True,0,0.07142856887755111
+373,P-0025699,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,0.525624179,0:LIVING,True,16.0,2.0,0.1111111111111111,False,False,False,True,True,0,0.12499999218750048
+374,P-0025739,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,0.657030223,0:LIVING,True,28.0,2.0,0.06666666666666667,False,False,False,True,True,0,0.07142856887755111
+375,P-0025741,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,50.98554534,0:LIVING,False,14.0,0.0,0.0,False,False,False,True,True,0,0.0
+376,P-0025762,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,71.97766097,1:DECEASED,False,2.0,0.0,0.0,False,False,False,True,True,0,0.0
+377,P-0025836,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,11.26806833,1:DECEASED,False,3.0,0.0,0.0,False,False,False,True,True,0,0.0
+378,P-0025910,SCCNOS,Cancer of Unknown Primary,"Squamous Cell Carcinoma, NOS",69.31668857,1:DECEASED,False,7.0,0.0,0.0,False,False,False,True,True,0,0.0
+379,P-0025915,LUSC,Non-Small Cell Lung Cancer,Lung Squamous Cell Carcinoma,5.880420499,1:DECEASED,False,9.0,1.0,0.1,False,False,False,True,True,0,0.11111109876543349
+380,P-0025916,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,44.90801577,1:DECEASED,True,4.0,2.0,0.3333333333333333,False,False,False,False,False,1,0.49999987500003124
+381,P-0025927,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,45.33508541,0:LIVING,False,5.0,0.0,0.0,False,False,False,True,True,0,0.0
+382,P-0025930,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,27.3653088,1:DECEASED,True,9.0,6.0,0.4,False,False,False,False,False,1,0.6666665925926009
+383,P-0025941,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,25.36136662,0:LIVING,False,8.0,0.0,0.0,False,False,False,True,True,0,0.0
+384,P-0026080,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,38.86333771,1:DECEASED,True,6.0,4.0,0.4,False,False,False,False,False,1,0.6666665555555741
+385,P-0026108,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,0.919842313,0:LIVING,False,4.0,1.0,0.2,False,False,False,False,True,1,0.24999993750001562
+386,P-0026121,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,8.935611038,1:DECEASED,False,4.0,1.0,0.2,False,False,False,False,True,1,0.24999993750001562
+387,P-0026141,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,36.99080158,0:LIVING,True,12.0,4.0,0.25,False,False,False,False,True,1,0.3333333055555579
+388,P-0026168,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,22.83180026,0:LIVING,False,14.0,0.0,0.0,False,False,False,True,True,0,0.0
+389,P-0026170,NSCLC,Non-Small Cell Lung Cancer,Non-Small Cell Lung Cancer,12.12220762,1:DECEASED,True,19.0,4.0,0.17391304347826086,False,False,False,True,True,0,0.21052630470914185
+390,P-0026255,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,21.74770039,1:DECEASED,False,4.0,1.0,0.2,False,False,False,False,True,1,0.24999993750001562
+391,P-0026271,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,1.478318003,1:DECEASED,False,4.0,1.0,0.2,False,False,False,False,True,1,0.24999993750001562
+392,P-0026276,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,47.47043364,0:LIVING,False,2.0,0.0,0.0,False,False,False,True,True,0,0.0
+393,P-0026293,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,37.51642576,0:LIVING,True,6.0,2.0,0.25,False,False,False,False,True,1,0.33333327777778704
+394,P-0026295,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,1.149802891,0:LIVING,False,10.0,1.0,0.09090909090909091,False,False,False,True,True,0,0.09999999000000101
+395,P-0026298,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,3.318002628,1:DECEASED,False,5.0,1.0,0.16666666666666666,False,False,False,True,True,0,0.199999960000008
+396,P-0026371,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,28.87647832,1:DECEASED,True,8.0,5.0,0.38461538461538464,False,False,False,False,False,1,0.6249999218750099
+397,P-0026407,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,53.74507227,0:LIVING,False,1.0,1.0,0.5,False,False,False,False,False,1,0.9999990000010001
+398,P-0026491,LUSC,Non-Small Cell Lung Cancer,Lung Squamous Cell Carcinoma,27.56241787,1:DECEASED,False,5.0,1.0,0.16666666666666666,False,False,False,True,True,0,0.199999960000008
+399,P-0026569,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,14.65177398,1:DECEASED,False,1.0,1.0,0.5,False,False,False,False,False,1,0.9999990000010001
+400,P-0026571,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,55.15768725,1:DECEASED,False,3.0,1.0,0.25,False,False,False,False,True,1,0.33333322222225925
+401,P-0026589,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,108.0486202,0:LIVING,False,2.0,0.0,0.0,False,False,False,True,True,0,0.0
+402,P-0026599,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,16.29434954,1:DECEASED,False,7.0,1.0,0.125,False,False,False,True,True,0,0.1428571224489825
+403,P-0026680,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,40.50591327,1:DECEASED,False,25.0,0.0,0.0,False,False,False,True,True,0,0.0
+404,P-0026689,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,47.50328515,0:LIVING,True,13.0,3.0,0.1875,False,False,False,True,True,0,0.23076921301775286
+405,P-0026691,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,14.88173456,0:LIVING,True,4.0,2.0,0.3333333333333333,False,False,False,False,False,1,0.49999987500003124
+406,P-0026695,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,39.15900131,1:DECEASED,True,2.0,4.0,0.6666666666666666,True,False,False,False,False,1,1.9999990000005
+407,P-0026701,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,1.11695138,1:DECEASED,False,8.0,1.0,0.1111111111111111,False,False,False,True,True,0,0.12499998437500197
+408,P-0026883,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,1.11695138,0:LIVING,True,6.0,3.0,0.3333333333333333,False,False,False,False,False,1,0.49999991666668053
+409,P-0026960,NSCLC,Non-Small Cell Lung Cancer,Non-Small Cell Lung Cancer,13.50197109,1:DECEASED,False,2.0,1.0,0.3333333333333333,False,False,False,False,False,1,0.499999750000125
+410,P-0026964,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,2.726675427,1:DECEASED,False,1.0,1.0,0.5,False,False,False,False,False,1,0.9999990000010001
+411,P-0027009,NSCLC,Non-Small Cell Lung Cancer,Non-Small Cell Lung Cancer,13.17345598,1:DECEASED,False,0.0,1.0,1.0,True,True,True,False,False,2,1000000.0
+412,P-0027087,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,3.482260184,0:LIVING,True,9.0,3.0,0.25,False,False,False,False,True,1,0.33333329629630043
+413,P-0027090,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,26.34691196,1:DECEASED,False,5.0,0.0,0.0,False,False,False,True,True,0,0.0
+414,P-0027092,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,55.32194481,1:DECEASED,False,2.0,0.0,0.0,False,False,False,True,True,0,0.0
+415,P-0027142,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,9.067017083,1:DECEASED,True,6.0,2.0,0.25,False,False,False,False,True,1,0.33333327777778704
+416,P-0027199,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,36.39947438,0:LIVING,True,8.0,4.0,0.3333333333333333,False,False,False,False,False,1,0.4999999375000079
+417,P-0027257,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,18.79106439,1:DECEASED,False,4.0,0.0,0.0,False,False,False,True,True,0,0.0
+418,P-0027304,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,11.33377135,1:DECEASED,True,3.0,3.0,0.5,False,False,False,False,False,1,0.9999996666667778
+419,P-0027316,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,28.58081472,1:DECEASED,False,11.0,0.0,0.0,False,False,False,True,True,0,0.0
+420,P-0027343,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,1.97109067,1:DECEASED,True,13.0,3.0,0.1875,False,False,False,True,True,0,0.23076921301775286
+421,P-0027408,NSCLC,Non-Small Cell Lung Cancer,Non-Small Cell Lung Cancer,47.24047306,0:LIVING,False,21.0,0.0,0.0,False,False,False,True,True,0,0.0
+422,P-0027419,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,31.04467806,0:LIVING,True,23.0,5.0,0.17857142857142858,False,False,False,True,True,0,0.21739129489603065
+423,P-0027455,LUSC,Non-Small Cell Lung Cancer,Lung Squamous Cell Carcinoma,25.49277267,1:DECEASED,True,0.0,2.0,1.0,True,True,True,False,False,2,2000000.0
+424,P-0027492,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,6.800262812,1:DECEASED,True,14.0,2.0,0.125,False,False,False,True,True,0,0.14285713265306196
+425,P-0027554,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,25.49277267,0:LIVING,False,10.0,0.0,0.0,False,False,False,True,True,0,0.0
+426,P-0027600,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,33.96846255,1:DECEASED,True,6.0,3.0,0.3333333333333333,False,False,False,False,False,1,0.49999991666668053
+427,P-0027664,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,10.67674113,0:LIVING,False,5.0,1.0,0.16666666666666666,False,False,False,True,True,0,0.199999960000008
+428,P-0027828,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,12.45072273,1:DECEASED,True,7.0,2.0,0.2222222222222222,False,False,False,False,True,1,0.285714244897965
+429,P-0027853,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,0.065703022,0:LIVING,False,4.0,0.0,0.0,False,False,False,True,True,0,0.0
+430,P-0027855,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,8.409986859,1:DECEASED,False,8.0,0.0,0.0,False,False,False,True,True,0,0.0
+431,P-0027930,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,12.18791064,0:LIVING,False,15.0,1.0,0.0625,False,False,False,True,True,0,0.06666666222222252
+432,P-0027989,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,2.036793693,0:LIVING,False,0.0,1.0,1.0,True,True,True,False,False,2,1000000.0
+433,P-0028196,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,12.22076216,1:DECEASED,False,10.0,1.0,0.09090909090909091,False,False,False,True,True,0,0.09999999000000101
+434,P-0028204,LUSC,Non-Small Cell Lung Cancer,Lung Squamous Cell Carcinoma,3.94218134,0:LIVING,False,6.0,0.0,0.0,False,False,False,True,True,0,0.0
+435,P-0028283,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,19.7109067,1:DECEASED,False,7.0,0.0,0.0,False,False,False,True,True,0,0.0
+436,P-0028337,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,35.38107753,1:DECEASED,False,8.0,1.0,0.1111111111111111,False,False,False,True,True,0,0.12499998437500197
+437,P-0028391,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,30.91327201,1:DECEASED,True,6.0,3.0,0.3333333333333333,False,False,False,False,False,1,0.49999991666668053
+438,P-0028466,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,23.55453351,1:DECEASED,True,9.0,2.0,0.18181818181818182,False,False,False,True,True,0,0.22222219753086697
+439,P-0028529,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,2.299605782,1:DECEASED,False,2.0,1.0,0.3333333333333333,False,False,False,False,False,1,0.499999750000125
+440,P-0028600,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,35.90670171,0:LIVING,True,25.0,2.0,0.07407407407407407,False,False,False,True,True,0,0.07999999680000013
+441,P-0028606,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,32.22733246,1:DECEASED,False,32.0,1.0,0.030303030303030304,False,False,False,True,True,0,0.031249999023437534
+442,P-0028609,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,45.36793693,0:LIVING,True,4.0,2.0,0.3333333333333333,False,False,False,False,False,1,0.49999987500003124
+443,P-0028698,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,17.57555848,1:DECEASED,True,3.0,2.0,0.4,False,False,False,False,False,1,0.6666664444445185
+444,P-0028711,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,48.39027595,1:DECEASED,True,15.0,3.0,0.16666666666666666,False,False,False,True,True,0,0.19999998666666757
+445,P-0028723,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,44.87516426,0:LIVING,False,17.0,0.0,0.0,False,False,False,True,True,0,0.0
+446,P-0028858,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,29.56636005,1:DECEASED,False,3.0,1.0,0.25,False,False,False,False,True,1,0.33333322222225925
+447,P-0028865,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,1.084099869,0:LIVING,False,1.0,0.0,0.0,False,False,False,True,True,0,0.0
+448,P-0028890,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,39.58607096,1:DECEASED,True,6.0,4.0,0.4,False,False,False,False,False,1,0.6666665555555741
+449,P-0028947,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,24.50722733,1:DECEASED,True,3.0,2.0,0.4,False,False,False,False,False,1,0.6666664444445185
+450,P-0029061,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,18.56110381,1:DECEASED,True,7.0,4.0,0.36363636363636365,False,False,False,False,False,1,0.57142848979593
+451,P-0029112,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,1.41261498,0:LIVING,False,3.0,0.0,0.0,False,False,False,True,True,0,0.0
+452,P-0029174,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,25.68988173,1:DECEASED,False,6.0,0.0,0.0,False,False,False,True,True,0,0.0
+453,P-0029315,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,2.956636005,0:LIVING,True,9.0,4.0,0.3076923076923077,False,False,False,False,False,1,0.44444439506173394
+454,P-0029432,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,25.95269382,0:LIVING,True,11.0,5.0,0.3125,False,False,False,False,False,1,0.4545454132231443
+455,P-0029593,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,45.5978975,0:LIVING,False,12.0,1.0,0.07692307692307693,False,False,False,True,True,0,0.08333332638888948
+456,P-0029594,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,1.346911958,0:LIVING,True,4.0,3.0,0.42857142857142855,False,False,False,False,False,1,0.7499998125000469
+457,P-0029800,NSCLC,Non-Small Cell Lung Cancer,Non-Small Cell Lung Cancer,3.712220762,1:DECEASED,False,12.0,1.0,0.07692307692307693,False,False,False,True,True,0,0.08333332638888948
+458,P-0029889,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,45.82785808,0:LIVING,True,0.0,12.0,1.0,True,True,True,False,False,2,12000000.0
+459,P-0029943,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,48.19316689,0:LIVING,False,25.0,0.0,0.0,False,False,False,True,True,0,0.0
+460,P-0029969,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,44.18528252,0:LIVING,True,15.0,2.0,0.11764705882352941,False,False,False,True,True,0,0.13333332444444504
+461,P-0029971,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,43.65965834,0:LIVING,False,1.0,0.0,0.0,False,False,False,True,True,0,0.0
+462,P-0029974,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,5.814717477,1:DECEASED,True,15.0,2.0,0.11764705882352941,False,False,False,True,True,0,0.13333332444444504
+463,P-0029975,LUSC,Non-Small Cell Lung Cancer,Lung Squamous Cell Carcinoma,32.0630749,1:DECEASED,False,7.0,1.0,0.125,False,False,False,True,True,0,0.1428571224489825
+464,P-0029997,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,3.416557162,0:LIVING,False,2.0,0.0,0.0,False,False,False,True,True,0,0.0
+465,P-0030111,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,7.555847569,1:DECEASED,False,6.0,1.0,0.14285714285714285,False,False,False,True,True,0,0.16666663888889352
+466,P-0030125,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,13.27201051,1:DECEASED,False,1.0,1.0,0.5,False,False,False,False,False,1,0.9999990000010001
+467,P-0030188,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,6.668856767,1:DECEASED,True,10.0,2.0,0.16666666666666666,False,False,False,True,True,0,0.19999998000000202
+468,P-0030199,LUSC,Non-Small Cell Lung Cancer,Lung Squamous Cell Carcinoma,6.077529566,1:DECEASED,True,6.0,2.0,0.25,False,False,False,False,True,1,0.33333327777778704
+469,P-0030300,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,7.03022339,1:DECEASED,True,5.0,2.0,0.2857142857142857,False,False,False,False,True,1,0.399999920000016
+470,P-0030308,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,1.938239159,1:DECEASED,False,0.0,1.0,1.0,True,True,True,False,False,2,1000000.0
+471,P-0030309,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,43.65965834,0:LIVING,False,1.0,0.0,0.0,False,False,False,True,True,0,0.0
+472,P-0030560,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,10.34822602,1:DECEASED,False,6.0,0.0,0.0,False,False,False,True,True,0,0.0
+473,P-0030562,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,43.59395532,0:LIVING,True,30.0,8.0,0.21052631578947367,False,False,False,False,True,1,0.26666665777777804
+474,P-0030565,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,2.693823916,1:DECEASED,False,10.0,1.0,0.09090909090909091,False,False,False,True,True,0,0.09999999000000101
+475,P-0030567,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,6.668856767,0:LIVING,True,9.0,7.0,0.4375,False,False,False,False,False,1,0.7777776913580343
+476,P-0030789,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,43.00262812,0:LIVING,False,14.0,0.0,0.0,False,False,False,True,True,0,0.0
+477,P-0030807,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,36.30091984,0:LIVING,True,19.0,2.0,0.09523809523809523,False,False,False,True,True,0,0.10526315235457093
+478,P-0030893,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,27.89093298,0:LIVING,False,16.0,0.0,0.0,False,False,False,True,True,0,0.0
+479,P-0030990,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,2.496714849,0:LIVING,False,3.0,1.0,0.25,False,False,False,False,True,1,0.33333322222225925
+480,P-0030998,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,41.26149803,1:DECEASED,False,16.0,1.0,0.058823529411764705,False,False,False,True,True,0,0.06249999609375024
+481,P-0031003,NSCLC,Non-Small Cell Lung Cancer,Non-Small Cell Lung Cancer,7.260183968,1:DECEASED,True,4.0,2.0,0.3333333333333333,False,False,False,False,False,1,0.49999987500003124
+482,P-0031076,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,35.31537451,1:DECEASED,False,4.0,1.0,0.2,False,False,False,False,True,1,0.24999993750001562
+483,P-0031232,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,2.069645204,1:DECEASED,True,11.0,2.0,0.15384615384615385,False,False,False,True,True,0,0.1818181652892577
+484,P-0031288,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,1.084099869,0:LIVING,True,15.0,3.0,0.16666666666666666,False,False,False,True,True,0,0.19999998666666757
+485,P-0031299,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,2.102496715,0:LIVING,False,8.0,0.0,0.0,False,False,False,True,True,0,0.0
+486,P-0031331,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,17.90407359,1:DECEASED,False,13.0,0.0,0.0,False,False,False,True,True,0,0.0
+487,P-0031340,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,17.41130092,1:DECEASED,True,7.0,3.0,0.3,False,False,False,False,False,1,0.4285713673469475
+488,P-0031357,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,15.76872536,1:DECEASED,False,11.0,0.0,0.0,False,False,False,True,True,0,0.0
+489,P-0031368,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,29.59921156,0:LIVING,False,2.0,1.0,0.3333333333333333,False,False,False,False,False,1,0.499999750000125
+490,P-0031440,CUP,Cancer of Unknown Primary,Cancer of Unknown Primary,5.091984231,0:LIVING,False,2.0,0.0,0.0,False,False,False,True,True,0,0.0
+491,P-0031598,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,2.036793693,0:LIVING,False,1.0,0.0,0.0,False,False,False,True,True,0,0.0
+492,P-0031827,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,9.00131406,0:LIVING,False,9.0,1.0,0.1,False,False,False,True,True,0,0.11111109876543349
+493,P-0031886,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,1.872536137,1:DECEASED,False,27.0,1.0,0.03571428571428571,False,False,False,True,True,0,0.037037035665294975
+494,P-0032002,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,50.68988173,0:LIVING,False,1.0,0.0,0.0,False,False,False,True,True,0,0.0
+495,P-0032053,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,1.544021025,0:LIVING,False,5.0,0.0,0.0,False,False,False,True,True,0,0.0
+496,P-0032101,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,21.02496715,1:DECEASED,False,0.0,1.0,1.0,True,True,True,False,False,2,1000000.0
+497,P-0032124,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,1.018396846,0:LIVING,False,4.0,1.0,0.2,False,False,False,False,True,1,0.24999993750001562
+498,P-0032126,NSCLC,Non-Small Cell Lung Cancer,Non-Small Cell Lung Cancer,2.956636005,1:DECEASED,False,8.0,1.0,0.1111111111111111,False,False,False,True,True,0,0.12499998437500197
+499,P-0032172,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,2.431011827,1:DECEASED,True,19.0,2.0,0.09523809523809523,False,False,False,True,True,0,0.10526315235457093
+500,P-0032175,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,13.04204993,1:DECEASED,False,6.0,1.0,0.14285714285714285,False,False,False,True,True,0,0.16666663888889352
+501,P-0032179,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,38.00919842,1:DECEASED,True,20.0,2.0,0.09090909090909091,False,False,False,True,True,0,0.09999999500000024
+502,P-0032182,LUSC,Non-Small Cell Lung Cancer,Lung Squamous Cell Carcinoma,18.46254928,1:DECEASED,True,4.0,2.0,0.3333333333333333,False,False,False,False,False,1,0.49999987500003124
+503,P-0032227,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,38.66622865,0:LIVING,False,4.0,0.0,0.0,False,False,False,True,True,0,0.0
+504,P-0032261,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,1.182654402,0:LIVING,False,9.0,0.0,0.0,False,False,False,True,True,0,0.0
+505,P-0032358,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,0.361366623,0:LIVING,True,22.0,3.0,0.12,False,False,False,True,True,0,0.13636363016528952
+506,P-0032455,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,38.60052562,1:DECEASED,True,15.0,6.0,0.2857142857142857,False,False,False,False,True,1,0.39999997333333515
+507,P-0032511,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,31.27463863,1:DECEASED,True,16.0,6.0,0.2727272727272727,False,False,False,False,True,1,0.37499997656250145
+508,P-0032513,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,11.39947438,1:DECEASED,False,5.0,1.0,0.16666666666666666,False,False,False,True,True,0,0.199999960000008
+509,P-0032722,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,2.365308804,1:DECEASED,False,4.0,0.0,0.0,False,False,False,True,True,0,0.0
+510,P-0032855,NSCLC,Non-Small Cell Lung Cancer,Non-Small Cell Lung Cancer,8.212877792,1:DECEASED,True,6.0,33.0,0.8461538461538461,True,True,False,False,False,2,5.499999083333486
+511,P-0033085,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,9.592641261,1:DECEASED,True,3.0,3.0,0.5,False,False,False,False,False,1,0.9999996666667778
+512,P-0033090,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,16.09724047,1:DECEASED,False,2.0,0.0,0.0,False,False,False,True,True,0,0.0
+513,P-0033093,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,41.29434954,0:LIVING,True,12.0,7.0,0.3684210526315789,False,False,False,False,False,1,0.5833332847222263
+514,P-0033183,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,1.544021025,1:DECEASED,False,8.0,1.0,0.1111111111111111,False,False,False,True,True,0,0.12499998437500197
+515,P-0033200,NSCLC,Non-Small Cell Lung Cancer,Non-Small Cell Lung Cancer,4.960578187,1:DECEASED,True,18.0,2.0,0.1,False,False,False,True,True,0,0.11111110493827195
+516,P-0033202,LUSC,Non-Small Cell Lung Cancer,Lung Squamous Cell Carcinoma,26.1826544,1:DECEASED,False,12.0,1.0,0.07692307692307693,False,False,False,True,True,0,0.08333332638888948
+517,P-0033239,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,18.29829172,0:LIVING,True,2.0,4.0,0.6666666666666666,True,False,False,False,False,1,1.9999990000005
+518,P-0033251,NSCLC,Non-Small Cell Lung Cancer,Non-Small Cell Lung Cancer,4.369250986,1:DECEASED,True,87.0,2.0,0.02247191011235955,False,False,False,True,True,0,0.02298850548289074
+519,P-0033313,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,36.1695138,1:DECEASED,True,11.0,2.0,0.15384615384615385,False,False,False,True,True,0,0.1818181652892577
+520,P-0033315,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,0.657030223,0:LIVING,True,17.0,8.0,0.32,False,False,False,False,False,1,0.47058820761245834
+521,P-0033317,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,4.073587385,0:LIVING,True,5.0,2.0,0.2857142857142857,False,False,False,False,True,1,0.399999920000016
+522,P-0033356,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,12.68068331,0:LIVING,False,11.0,1.0,0.08333333333333333,False,False,False,True,True,0,0.09090908264462885
+523,P-0033599,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,12.68068331,1:DECEASED,False,11.0,0.0,0.0,False,False,False,True,True,0,0.0
+524,P-0033611,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,41.13009198,0:LIVING,False,15.0,0.0,0.0,False,False,False,True,True,0,0.0
+525,P-0033740,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,11.760841,1:DECEASED,False,33.0,1.0,0.029411764705882353,False,False,False,True,True,0,0.030303029384756687
+526,P-0033747,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,4.402102497,0:LIVING,False,5.0,1.0,0.16666666666666666,False,False,False,True,True,0,0.199999960000008
+527,P-0033792,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,50.78843627,0:LIVING,False,6.0,0.0,0.0,False,False,False,True,True,0,0.0
+528,P-0033815,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,0.229960578,0:LIVING,True,8.0,2.0,0.2,False,False,False,False,True,1,0.24999996875000394
+529,P-0033851,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,39.35611038,0:LIVING,False,5.0,1.0,0.16666666666666666,False,False,False,True,True,0,0.199999960000008
+530,P-0033884,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,41.49145861,0:LIVING,True,22.0,2.0,0.08333333333333333,False,False,False,True,True,0,0.09090908677685969
+531,P-0033889,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,10.97240473,1:DECEASED,False,2.0,0.0,0.0,False,False,False,True,True,0,0.0
+532,P-0033896,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,16.19579501,0:LIVING,False,4.0,1.0,0.2,False,False,False,False,True,1,0.24999993750001562
+533,P-0033974,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,22.96320631,1:DECEASED,False,2.0,0.0,0.0,False,False,False,True,True,0,0.0
+534,P-0033978,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,131.3074901,1:DECEASED,False,3.0,1.0,0.25,False,False,False,False,True,1,0.33333322222225925
+535,P-0033998,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,5.486202365,0:LIVING,False,7.0,0.0,0.0,False,False,False,True,True,0,0.0
+536,P-0034307,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,10.05256242,0:LIVING,False,10.0,0.0,0.0,False,False,False,True,True,0,0.0
+537,P-0034368,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,12.31931669,1:DECEASED,True,18.0,4.0,0.18181818181818182,False,False,False,True,True,0,0.2222222098765439
+538,P-0034373,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,1.609724047,1:DECEASED,True,11.0,2.0,0.15384615384615385,False,False,False,True,True,0,0.1818181652892577
+539,P-0034567,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,18.8239159,1:DECEASED,False,16.0,0.0,0.0,False,False,False,True,True,0,0.0
+540,P-0034646,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,7.063074901,1:DECEASED,True,9.0,2.0,0.18181818181818182,False,False,False,True,True,0,0.22222219753086697
+541,P-0034668,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,2.463863338,0:LIVING,False,4.0,1.0,0.2,False,False,False,False,True,1,0.24999993750001562
+542,P-0034677,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,27.85808147,1:DECEASED,True,10.0,4.0,0.2857142857142857,False,False,False,False,True,1,0.39999996000000404
+543,P-0034769,NSCLC,Non-Small Cell Lung Cancer,Non-Small Cell Lung Cancer,22.70039422,1:DECEASED,True,28.0,2.0,0.06666666666666667,False,False,False,True,True,0,0.07142856887755111
+544,P-0034785,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,23.62023653,1:DECEASED,True,4.0,6.0,0.6,True,False,False,False,False,1,1.4999996250000938
+545,P-0034928,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,39.09329829,0:LIVING,False,8.0,1.0,0.1111111111111111,False,False,False,True,True,0,0.12499998437500197
+546,P-0034937,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,31.1760841,0:LIVING,False,9.0,1.0,0.1,False,False,False,True,True,0,0.11111109876543349
+547,P-0034997,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,11.20236531,1:DECEASED,False,23.0,1.0,0.041666666666666664,False,False,False,True,True,0,0.04347825897920613
+548,P-0035094,NSCLC,Non-Small Cell Lung Cancer,Non-Small Cell Lung Cancer,3.975032852,1:DECEASED,False,69.0,1.0,0.014285714285714285,False,False,False,True,True,0,0.014492753413148502
+549,P-0035137,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,24.67148489,0:LIVING,False,16.0,0.0,0.0,False,False,False,True,True,0,0.0
+550,P-0035162,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,27.72667543,1:DECEASED,True,43.0,2.0,0.044444444444444446,False,False,False,True,True,0,0.04651162682531101
+551,P-0035181,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,39.06044678,0:LIVING,False,157.0,0.0,0.0,False,False,False,True,True,0,0.0
+552,P-0035226,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,8.409986859,0:LIVING,False,43.0,0.0,0.0,False,False,False,True,True,0,0.0
+553,P-0035324,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,22.60183968,1:DECEASED,True,24.0,6.0,0.2,False,False,False,False,True,1,0.24999998958333375
+554,P-0035349,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,14.1261498,1:DECEASED,False,15.0,0.0,0.0,False,False,False,True,True,0,0.0
+555,P-0035487,NSCLC,Non-Small Cell Lung Cancer,Non-Small Cell Lung Cancer,38.46911958,0:LIVING,False,6.0,0.0,0.0,False,False,False,True,True,0,0.0
+556,P-0035502,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,27.79237845,1:DECEASED,False,30.0,0.0,0.0,False,False,False,True,True,0,0.0
+557,P-0035575,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,58.2457293,1:DECEASED,True,11.0,8.0,0.42105263157894735,False,False,False,False,False,1,0.7272726611570308
+558,P-0035733,NSCLC,Non-Small Cell Lung Cancer,Non-Small Cell Lung Cancer,1.018396846,0:LIVING,True,9.0,4.0,0.3076923076923077,False,False,False,False,False,1,0.44444439506173394
+559,P-0035835,NSCLC,Non-Small Cell Lung Cancer,Non-Small Cell Lung Cancer,9.034165572,1:DECEASED,False,6.0,1.0,0.14285714285714285,False,False,False,True,True,0,0.16666663888889352
+560,P-0035851,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,31.1760841,0:LIVING,False,14.0,1.0,0.06666666666666667,False,False,False,True,True,0,0.07142856632653098
+561,P-0035889,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,2.660972405,0:LIVING,True,0.0,2.0,1.0,True,True,True,False,False,2,2000000.0
+562,P-0036059,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,21.55059133,1:DECEASED,False,12.0,1.0,0.07692307692307693,False,False,False,True,True,0,0.08333332638888948
+563,P-0036090,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,1.97109067,0:LIVING,False,0.0,1.0,1.0,True,True,True,False,False,2,1000000.0
+564,P-0036122,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,37.74638633,0:LIVING,False,1.0,0.0,0.0,False,False,False,True,True,0,0.0
+565,P-0036243,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,9.658344284,1:DECEASED,True,7.0,2.0,0.2222222222222222,False,False,False,False,True,1,0.285714244897965
+566,P-0036247,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,37.9434954,1:DECEASED,False,1.0,0.0,0.0,False,False,False,True,True,0,0.0
+567,P-0036249,ADNOS,Cancer of Unknown Primary,"Adenocarcinoma, NOS",1.445466491,0:LIVING,False,3.0,0.0,0.0,False,False,False,True,True,0,0.0
+568,P-0036264,NSCLC,Non-Small Cell Lung Cancer,Non-Small Cell Lung Cancer,6.636005256,1:DECEASED,False,12.0,0.0,0.0,False,False,False,True,True,0,0.0
+569,P-0036477,NSCLC,Non-Small Cell Lung Cancer,Non-Small Cell Lung Cancer,4.76346912,1:DECEASED,False,9.0,1.0,0.1,False,False,False,True,True,0,0.11111109876543349
+570,P-0036672,NSCLC,Non-Small Cell Lung Cancer,Non-Small Cell Lung Cancer,1.018396846,0:LIVING,False,5.0,1.0,0.16666666666666666,False,False,False,True,True,0,0.199999960000008
+571,P-0036687,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,10.34822602,1:DECEASED,False,8.0,1.0,0.1111111111111111,False,False,False,True,True,0,0.12499998437500197
+572,P-0036737,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,3.449408673,0:LIVING,False,2.0,0.0,0.0,False,False,False,True,True,0,0.0
+573,P-0036749,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,6.636005256,0:LIVING,False,2.0,0.0,0.0,False,False,False,True,True,0,0.0
+574,P-0036885,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,37.28646518,0:LIVING,True,19.0,2.0,0.09523809523809523,False,False,False,True,True,0,0.10526315235457093
+575,P-0036909,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,34.92115637,1:DECEASED,False,4.0,1.0,0.2,False,False,False,False,True,1,0.24999993750001562
+576,P-0036917,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,19.87516426,1:DECEASED,True,7.0,2.0,0.2222222222222222,False,False,False,False,True,1,0.285714244897965
+577,P-0036969,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,37.15505913,1:DECEASED,False,5.0,1.0,0.16666666666666666,False,False,False,True,True,0,0.199999960000008
+578,P-0036970,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,2.562417871,0:LIVING,False,3.0,0.0,0.0,False,False,False,True,True,0,0.0
+579,P-0037107,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,27.3653088,1:DECEASED,False,11.0,1.0,0.08333333333333333,False,False,False,True,True,0,0.09090908264462885
+580,P-0037164,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,29.33639947,1:DECEASED,True,6.0,2.0,0.25,False,False,False,False,True,1,0.33333327777778704
+581,P-0037236,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,12.0565046,1:DECEASED,False,10.0,1.0,0.09090909090909091,False,False,False,True,True,0,0.09999999000000101
+582,P-0037244,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,2.759526938,1:DECEASED,False,21.0,1.0,0.045454545454545456,False,False,False,True,True,0,0.04761904535147403
+583,P-0037356,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,14.91458607,1:DECEASED,True,7.0,2.0,0.2222222222222222,False,False,False,False,True,1,0.285714244897965
+584,P-0037369,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,18.10118265,1:DECEASED,True,4.0,3.0,0.42857142857142855,False,False,False,False,False,1,0.7499998125000469
+585,P-0037378,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,25.32851511,0:LIVING,False,9.0,1.0,0.1,False,False,False,True,True,0,0.11111109876543349
+586,P-0037379,LUSC,Non-Small Cell Lung Cancer,Lung Squamous Cell Carcinoma,0.459921156,0:LIVING,True,2.0,2.0,0.5,False,False,False,False,False,1,0.99999950000025
+587,P-0037497,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,1.314060447,1:DECEASED,True,5.0,2.0,0.2857142857142857,False,False,False,False,True,1,0.399999920000016
+588,P-0037575,LUSC,Non-Small Cell Lung Cancer,Lung Squamous Cell Carcinoma,14.84888305,1:DECEASED,False,14.0,0.0,0.0,False,False,False,True,True,0,0.0
+589,P-0037643,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,1.642575558,0:LIVING,False,3.0,0.0,0.0,False,False,False,True,True,0,0.0
+590,P-0037654,CUP,Cancer of Unknown Primary,Cancer of Unknown Primary,1.544021025,0:LIVING,False,9.0,0.0,0.0,False,False,False,True,True,0,0.0
+591,P-0037729,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,14.48751643,0:LIVING,True,10.0,18.0,0.6428571428571429,True,False,False,False,False,1,1.7999998200000182
+592,P-0037743,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,7.128777924,0:LIVING,False,3.0,0.0,0.0,False,False,False,True,True,0,0.0
+593,P-0037761,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,61.95795007,0:LIVING,True,11.0,5.0,0.3125,False,False,False,False,False,1,0.4545454132231443
+594,P-0037767,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,1.609724047,0:LIVING,False,2.0,0.0,0.0,False,False,False,True,True,0,0.0
+595,P-0037914,NSCLC,Non-Small Cell Lung Cancer,Non-Small Cell Lung Cancer,35.70959264,0:LIVING,True,17.0,2.0,0.10526315789473684,False,False,False,True,True,0,0.11764705190311459
+596,P-0037965,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,2.299605782,0:LIVING,False,19.0,0.0,0.0,False,False,False,True,True,0,0.0
+597,P-0037994,NSCLC,Non-Small Cell Lung Cancer,Non-Small Cell Lung Cancer,13.04204993,1:DECEASED,False,7.0,1.0,0.125,False,False,False,True,True,0,0.1428571224489825
+598,P-0038053,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,55.42049934,0:LIVING,False,2.0,0.0,0.0,False,False,False,True,True,0,0.0
+599,P-0038121,NSCLC,Non-Small Cell Lung Cancer,Non-Small Cell Lung Cancer,67.80551905,0:LIVING,False,7.0,0.0,0.0,False,False,False,True,True,0,0.0
+600,P-0038172,NSCLC,Non-Small Cell Lung Cancer,Non-Small Cell Lung Cancer,1.379763469,1:DECEASED,True,5.0,2.0,0.2857142857142857,False,False,False,False,True,1,0.399999920000016
+601,P-0038268,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,5.781865966,1:DECEASED,True,13.0,2.0,0.13333333333333333,False,False,False,True,True,0,0.15384614201183525
+602,P-0038442,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,35.47963206,0:LIVING,False,1.0,0.0,0.0,False,False,False,True,True,0,0.0
+603,P-0038443,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,15.17739816,0:LIVING,True,8.0,6.0,0.42857142857142855,False,False,False,False,False,1,0.7499999062500118
+604,P-0038658,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,66.62286465,1:DECEASED,True,7.0,2.0,0.2222222222222222,False,False,False,False,True,1,0.285714244897965
+605,P-0038754,NSCLC,Non-Small Cell Lung Cancer,Non-Small Cell Lung Cancer,32.62155059,0:LIVING,True,13.0,2.0,0.13333333333333333,False,False,False,True,True,0,0.15384614201183525
+606,P-0038763,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,11.89224704,1:DECEASED,False,4.0,1.0,0.2,False,False,False,False,True,1,0.24999993750001562
+607,P-0038790,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,25.62417871,1:DECEASED,True,25.0,2.0,0.07407407407407407,False,False,False,True,True,0,0.07999999680000013
+608,P-0038821,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,9.296977661,0:LIVING,True,13.0,3.0,0.1875,False,False,False,True,True,0,0.23076921301775286
+609,P-0038992,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,45.17082786,0:LIVING,False,12.0,0.0,0.0,False,False,False,True,True,0,0.0
+610,P-0039021,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,13.73193167,0:LIVING,False,3.0,0.0,0.0,False,False,False,True,True,0,0.0
+611,P-0039029,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,0.624178712,0:LIVING,False,4.0,0.0,0.0,False,False,False,True,True,0,0.0
+612,P-0039078,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,168.0683311,0:LIVING,True,7.0,22.0,0.7586206896551724,True,True,False,False,False,1,3.142856693877615
+613,P-0039079,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,103.2522996,1:DECEASED,True,3.0,2.0,0.4,False,False,False,False,False,1,0.6666664444445185
+614,P-0039257,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,1.41261498,0:LIVING,True,8.0,5.0,0.38461538461538464,False,False,False,False,False,1,0.6249999218750099
+615,P-0039387,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,0.952693824,1:DECEASED,False,4.0,1.0,0.2,False,False,False,False,True,1,0.24999993750001562
+616,P-0039390,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,3.679369251,1:DECEASED,True,5.0,2.0,0.2857142857142857,False,False,False,False,True,1,0.399999920000016
+617,P-0039416,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,1.938239159,1:DECEASED,True,3.0,2.0,0.4,False,False,False,False,False,1,0.6666664444445185
+618,P-0039544,LUSC,Non-Small Cell Lung Cancer,Lung Squamous Cell Carcinoma,4.632063075,1:DECEASED,False,1.0,0.0,0.0,False,False,False,True,True,0,0.0
+619,P-0039647,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,19.57950066,0:LIVING,False,5.0,0.0,0.0,False,False,False,True,True,0,0.0
+620,P-0039676,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,16.36005256,1:DECEASED,True,3.0,2.0,0.4,False,False,False,False,False,1,0.6666664444445185
+621,P-0039737,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,0.722733246,1:DECEASED,False,26.0,1.0,0.037037037037037035,False,False,False,True,True,0,0.03846153698224858
+622,P-0039738,NSCLC,Non-Small Cell Lung Cancer,Non-Small Cell Lung Cancer,0.788436268,1:DECEASED,True,9.0,2.0,0.18181818181818182,False,False,False,True,True,0,0.22222219753086697
+623,P-0039795,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,3.219448095,0:LIVING,True,8.0,21.0,0.7241379310344828,True,True,False,False,False,1,2.6249996718750412
+624,P-0039869,NSCLC,Non-Small Cell Lung Cancer,Non-Small Cell Lung Cancer,16.88567674,0:LIVING,False,12.0,1.0,0.07692307692307693,False,False,False,True,True,0,0.08333332638888948
+625,P-0039879,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,33.77135348,0:LIVING,True,0.0,5.0,1.0,True,True,True,False,False,2,5000000.0
+626,P-0039945,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,85.70959264,0:LIVING,False,1.0,0.0,0.0,False,False,False,True,True,0,0.0
+627,P-0039952,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,36.59658344,1:DECEASED,False,6.0,1.0,0.14285714285714285,False,False,False,True,True,0,0.16666663888889352
+628,P-0039968,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,5.223390276,0:LIVING,False,9.0,1.0,0.1,False,False,False,True,True,0,0.11111109876543349
+629,P-0039973,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,6.208935611,1:DECEASED,False,5.0,1.0,0.16666666666666666,False,False,False,True,True,0,0.199999960000008
+630,P-0040034,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,26.11695138,1:DECEASED,False,5.0,0.0,0.0,False,False,False,True,True,0,0.0
+631,P-0040078,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,24.34296978,0:LIVING,False,16.0,0.0,0.0,False,False,False,True,True,0,0.0
+632,P-0040127,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,12.91064389,0:LIVING,False,4.0,0.0,0.0,False,False,False,True,True,0,0.0
+633,P-0040133,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,33.27858081,0:LIVING,True,10.0,8.0,0.4444444444444444,False,False,False,False,False,1,0.7999999200000081
+634,P-0040134,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,0.624178712,0:LIVING,False,1.0,0.0,0.0,False,False,False,True,True,0,0.0
+635,P-0040145,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,33.31143233,1:DECEASED,False,38.0,1.0,0.02564102564102564,False,False,False,True,True,0,0.026315788781163457
+636,P-0040358,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,18.59395532,0:LIVING,False,5.0,1.0,0.16666666666666666,False,False,False,True,True,0,0.199999960000008
+637,P-0040363,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,4.434954008,1:DECEASED,False,0.0,1.0,1.0,True,True,True,False,False,2,1000000.0
+638,P-0040375,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,25.75558476,1:DECEASED,False,20.0,0.0,0.0,False,False,False,True,True,0,0.0
+639,P-0040448,NSCLC,Non-Small Cell Lung Cancer,Non-Small Cell Lung Cancer,1.872536137,1:DECEASED,False,4.0,1.0,0.2,False,False,False,False,True,1,0.24999993750001562
+640,P-0040507,LUSC,Non-Small Cell Lung Cancer,Lung Squamous Cell Carcinoma,0.886990802,0:LIVING,True,9.0,2.0,0.18181818181818182,False,False,False,True,True,0,0.22222219753086697
+641,P-0040528,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,31.93166886,1:DECEASED,True,2.0,3.0,0.6,True,False,False,False,False,1,1.499999250000375
+642,P-0040544,NSCLC,Non-Small Cell Lung Cancer,Non-Small Cell Lung Cancer,3.909329829,1:DECEASED,True,7.0,2.0,0.2222222222222222,False,False,False,False,True,1,0.285714244897965
+643,P-0040600,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,9.756898817,1:DECEASED,False,1.0,0.0,0.0,False,False,False,True,True,0,0.0
+644,P-0040655,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,20.53219448,1:DECEASED,False,68.0,0.0,0.0,False,False,False,True,True,0,0.0
+645,P-0040684,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,13.40341656,1:DECEASED,True,6.0,5.0,0.45454545454545453,False,False,False,False,False,1,0.8333331944444675
+646,P-0040730,NSCLC,Non-Small Cell Lung Cancer,Non-Small Cell Lung Cancer,28.54796321,1:DECEASED,True,16.0,2.0,0.1111111111111111,False,False,False,True,True,0,0.12499999218750048
+647,P-0040732,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,0.427069645,0:LIVING,False,3.0,0.0,0.0,False,False,False,True,True,0,0.0
+648,P-0040818,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,40.14454665,1:DECEASED,False,18.0,0.0,0.0,False,False,False,True,True,0,0.0
+649,P-0040869,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,8.639947438,1:DECEASED,False,7.0,1.0,0.125,False,False,False,True,True,0,0.1428571224489825
+650,P-0040888,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,0.459921156,0:LIVING,True,8.0,2.0,0.2,False,False,False,False,True,1,0.24999996875000394
+651,P-0040892,UEC,Endometrial Cancer,Uterine Endometrioid Carcinoma,13.66622865,1:DECEASED,False,47.0,0.0,0.0,False,False,False,True,True,0,0.0
+652,P-0040940,NSCLC,Non-Small Cell Lung Cancer,Non-Small Cell Lung Cancer,3.022339028,0:LIVING,True,35.0,2.0,0.05405405405405406,False,False,False,True,True,0,0.057142855510204135
+653,P-0040945,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,7.128777924,0:LIVING,True,5.0,30.0,0.8571428571428571,True,True,False,False,False,2,5.99999880000024
+654,P-0040952,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,6.241787122,0:LIVING,False,4.0,1.0,0.2,False,False,False,False,True,1,0.24999993750001562
+655,P-0040954,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,36.07095926,0:LIVING,False,5.0,1.0,0.16666666666666666,False,False,False,True,True,0,0.199999960000008
+656,P-0041143,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,12.54927727,1:DECEASED,True,15.0,2.0,0.11764705882352941,False,False,False,True,True,0,0.13333332444444504
+657,P-0041149,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,1.445466491,0:LIVING,True,5.0,6.0,0.5454545454545454,True,False,False,False,False,1,1.199999760000048
+658,P-0041215,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,67.80551905,0:LIVING,False,1.0,1.0,0.5,False,False,False,False,False,1,0.9999990000010001
+659,P-0041306,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,62.22076216,1:DECEASED,False,32.0,0.0,0.0,False,False,False,True,True,0,0.0
+660,P-0041310,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,32.88436268,0:LIVING,False,9.0,0.0,0.0,False,False,False,True,True,0,0.0
+661,P-0041325,LUSC,Non-Small Cell Lung Cancer,Lung Squamous Cell Carcinoma,4.237844941,1:DECEASED,False,7.0,1.0,0.125,False,False,False,True,True,0,0.1428571224489825
+662,P-0041416,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,0.952693824,0:LIVING,False,5.0,0.0,0.0,False,False,False,True,True,0,0.0
+663,P-0041477,NSCLC,Non-Small Cell Lung Cancer,Non-Small Cell Lung Cancer,32.32588699,1:DECEASED,True,85.0,2.0,0.022988505747126436,False,False,False,True,True,0,0.023529411487889278
+664,P-0041594,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,0.492772668,0:LIVING,False,2.0,1.0,0.3333333333333333,False,False,False,False,False,1,0.499999750000125
+665,P-0041615,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,56.20893561,1:DECEASED,False,9.0,0.0,0.0,False,False,False,True,True,0,0.0
+666,P-0041629,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,34.78975033,0:LIVING,False,23.0,1.0,0.041666666666666664,False,False,False,True,True,0,0.04347825897920613
+667,P-0041641,LUSC,Non-Small Cell Lung Cancer,Lung Squamous Cell Carcinoma,19.1195795,0:LIVING,False,11.0,1.0,0.08333333333333333,False,False,False,True,True,0,0.09090908264462885
+668,P-0041703,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,15.80157687,1:DECEASED,False,13.0,0.0,0.0,False,False,False,True,True,0,0.0
+669,P-0041908,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,100.7227332,0:LIVING,False,1.0,0.0,0.0,False,False,False,True,True,0,0.0
+670,P-0042033,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,34.92115637,0:LIVING,True,7.0,9.0,0.5625,True,False,False,False,False,1,1.2857141020408425
+671,P-0042154,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,32.32588699,0:LIVING,False,10.0,1.0,0.09090909090909091,False,False,False,True,True,0,0.09999999000000101
+672,P-0042173,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,29.73061761,0:LIVING,False,8.0,0.0,0.0,False,False,False,True,True,0,0.0
+673,P-0042228,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,5.190538765,0:LIVING,False,2.0,1.0,0.3333333333333333,False,False,False,False,False,1,0.499999750000125
+674,P-0042313,LUSC,Non-Small Cell Lung Cancer,Lung Squamous Cell Carcinoma,3.120893561,1:DECEASED,True,10.0,3.0,0.23076923076923078,False,False,False,False,True,1,0.299999970000003
+675,P-0042317,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,27.95663601,1:DECEASED,False,5.0,1.0,0.16666666666666666,False,False,False,True,True,0,0.199999960000008
+676,P-0042533,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,22.56898817,1:DECEASED,False,2.0,1.0,0.3333333333333333,False,False,False,False,False,1,0.499999750000125
+677,P-0042596,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,1.609724047,0:LIVING,False,6.0,0.0,0.0,False,False,False,True,True,0,0.0
+678,P-0042611,NSCLC,Non-Small Cell Lung Cancer,Non-Small Cell Lung Cancer,4.402102497,1:DECEASED,True,6.0,2.0,0.25,False,False,False,False,True,1,0.33333327777778704
+679,P-0042613,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,36.03810775,0:LIVING,True,3.0,2.0,0.4,False,False,False,False,False,1,0.6666664444445185
+680,P-0042616,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,19.90801577,1:DECEASED,True,6.0,2.0,0.25,False,False,False,False,True,1,0.33333327777778704
+681,P-0042799,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,1.938239159,1:DECEASED,False,6.0,1.0,0.14285714285714285,False,False,False,True,True,0,0.16666663888889352
+682,P-0042996,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,31.07752957,0:LIVING,False,8.0,1.0,0.1111111111111111,False,False,False,True,True,0,0.12499998437500197
+683,P-0043018,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,11.82654402,0:LIVING,False,4.0,1.0,0.2,False,False,False,False,True,1,0.24999993750001562
+684,P-0043042,CUP,Cancer of Unknown Primary,Cancer of Unknown Primary,12.22076216,1:DECEASED,False,2.0,0.0,0.0,False,False,False,True,True,0,0.0
+685,P-0043153,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,2.956636005,1:DECEASED,True,7.0,3.0,0.3,False,False,False,False,False,1,0.4285713673469475
+686,P-0043170,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,9.099868594,1:DECEASED,False,34.0,0.0,0.0,False,False,False,True,True,0,0.0
+687,P-0043176,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,9.034165572,1:DECEASED,False,4.0,0.0,0.0,False,False,False,True,True,0,0.0
+688,P-0043187,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,29.6977661,0:LIVING,True,49.0,2.0,0.0392156862745098,False,False,False,True,True,0,0.040816325697626006
+689,P-0043200,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,12.84494087,0:LIVING,False,6.0,0.0,0.0,False,False,False,True,True,0,0.0
+690,P-0043222,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,24.08015769,1:DECEASED,False,18.0,0.0,0.0,False,False,False,True,True,0,0.0
+691,P-0043243,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,26.05124836,1:DECEASED,True,4.0,6.0,0.6,True,False,False,False,False,1,1.4999996250000938
+692,P-0043250,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,11.30091984,1:DECEASED,False,10.0,1.0,0.09090909090909091,False,False,False,True,True,0,0.09999999000000101
+693,P-0043255,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,12.87779238,1:DECEASED,False,1.0,0.0,0.0,False,False,False,True,True,0,0.0
+694,P-0043311,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,53.77792378,1:DECEASED,True,0.0,3.0,1.0,True,True,True,False,False,2,3000000.0
+695,P-0043350,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,27.62812089,1:DECEASED,False,4.0,1.0,0.2,False,False,False,False,True,1,0.24999993750001562
+696,P-0043375,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,181.2746386,1:DECEASED,True,3.0,2.0,0.4,False,False,False,False,False,1,0.6666664444445185
+697,P-0043410,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,26.7739816,1:DECEASED,True,8.0,8.0,0.5,False,False,False,False,False,1,0.9999998750000157
+698,P-0043478,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,14.98028909,0:LIVING,False,1.0,0.0,0.0,False,False,False,True,True,0,0.0
+699,P-0043499,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,1.609724047,1:DECEASED,True,8.0,10.0,0.5555555555555556,True,False,False,False,False,1,1.2499998437500197
+700,P-0043501,NSCLC,Non-Small Cell Lung Cancer,Non-Small Cell Lung Cancer,1.609724047,1:DECEASED,True,0.0,12.0,1.0,True,True,True,False,False,2,12000000.0
+701,P-0043502,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,1.576872536,1:DECEASED,True,8.0,6.0,0.42857142857142855,False,False,False,False,False,1,0.7499999062500118
+702,P-0043503,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,19.31668857,1:DECEASED,True,8.0,10.0,0.5555555555555556,True,False,False,False,False,1,1.2499998437500197
+703,P-0043504,LUSC,Non-Small Cell Lung Cancer,Lung Squamous Cell Carcinoma,8.475689882,1:DECEASED,True,18.0,5.0,0.21739130434782608,False,False,False,False,True,1,0.27777776234567986
+704,P-0043508,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,34.46123522,0:LIVING,True,10.0,2.0,0.16666666666666666,False,False,False,True,True,0,0.19999998000000202
+705,P-0043514,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,30.71616294,0:LIVING,False,2.0,1.0,0.3333333333333333,False,False,False,False,False,1,0.499999750000125
+706,P-0043692,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,3.843626807,0:LIVING,True,9.0,2.0,0.18181818181818182,False,False,False,True,True,0,0.22222219753086697
+707,P-0043696,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,29.66491459,0:LIVING,False,20.0,0.0,0.0,False,False,False,True,True,0,0.0
+708,P-0043733,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,20.26938239,1:DECEASED,True,17.0,2.0,0.10526315789473684,False,False,False,True,True,0,0.11764705190311459
+709,P-0043745,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,16.13009198,1:DECEASED,True,14.0,4.0,0.2222222222222222,False,False,False,False,True,1,0.2857142653061239
+710,P-0043746,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,5.716162943,0:LIVING,True,0.0,2.0,1.0,True,True,True,False,False,2,2000000.0
+711,P-0043747,LUSC,Non-Small Cell Lung Cancer,Lung Squamous Cell Carcinoma,31.07752957,0:LIVING,True,27.0,5.0,0.15625,False,False,False,True,True,0,0.18518517832647488
+712,P-0043854,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,4.862023653,1:DECEASED,False,12.0,0.0,0.0,False,False,False,True,True,0,0.0
+713,P-0043872,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,3.547963206,1:DECEASED,True,10.0,3.0,0.23076923076923078,False,False,False,False,True,1,0.299999970000003
+714,P-0043956,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,31.07752957,0:LIVING,False,6.0,0.0,0.0,False,False,False,True,True,0,0.0
+715,P-0043969,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,46.41918528,1:DECEASED,True,2.0,8.0,0.8,True,True,False,False,False,2,3.999998000001
+716,P-0043970,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,29.46780552,0:LIVING,True,0.0,3.0,1.0,True,True,True,False,False,2,3000000.0
+717,P-0043971,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,30.42049934,0:LIVING,True,0.0,7.0,1.0,True,True,True,False,False,2,7000000.0
+718,P-0043972,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,27.26675427,0:LIVING,True,6.0,2.0,0.25,False,False,False,False,True,1,0.33333327777778704
+719,P-0044013,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,2.102496715,1:DECEASED,False,5.0,1.0,0.16666666666666666,False,False,False,True,True,0,0.199999960000008
+720,P-0044017,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,1.839684625,0:LIVING,True,12.0,2.0,0.14285714285714285,False,False,False,True,True,0,0.16666665277777895
+721,P-0044028,NSCLC,Non-Small Cell Lung Cancer,Non-Small Cell Lung Cancer,5.091984231,1:DECEASED,False,11.0,1.0,0.08333333333333333,False,False,False,True,True,0,0.09090908264462885
+722,P-0044139,NSCLC,Non-Small Cell Lung Cancer,Non-Small Cell Lung Cancer,3.613666229,1:DECEASED,False,6.0,0.0,0.0,False,False,False,True,True,0,0.0
+723,P-0044145,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,2.726675427,1:DECEASED,True,61.0,20.0,0.24691358024691357,False,False,False,False,True,1,0.3278688470841173
+724,P-0044214,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,9.034165572,0:LIVING,True,8.0,3.0,0.2727272727272727,False,False,False,False,True,1,0.3749999531250059
+725,P-0044379,LUSC,Non-Small Cell Lung Cancer,Lung Squamous Cell Carcinoma,16.59001314,1:DECEASED,True,2.0,2.0,0.5,False,False,False,False,False,1,0.99999950000025
+726,P-0044381,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,21.25492773,1:DECEASED,True,0.0,4.0,1.0,True,True,True,False,False,2,4000000.0
+727,P-0044382,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,1.839684625,1:DECEASED,True,0.0,3.0,1.0,True,True,True,False,False,2,3000000.0
+728,P-0044470,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,8.311432326,1:DECEASED,True,22.0,3.0,0.12,False,False,False,True,True,0,0.13636363016528952
+729,P-0044496,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,0.131406045,0:LIVING,True,3.0,2.0,0.4,False,False,False,False,False,1,0.6666664444445185
+730,P-0044557,NSCLC,Non-Small Cell Lung Cancer,Non-Small Cell Lung Cancer,30.38764783,1:DECEASED,False,59.0,0.0,0.0,False,False,False,True,True,0,0.0
+731,P-0044573,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,28.48226018,0:LIVING,True,22.0,6.0,0.21428571428571427,False,False,False,False,True,1,0.27272726033057904
+732,P-0044656,NSCLC,Non-Small Cell Lung Cancer,Non-Small Cell Lung Cancer,27.95663601,1:DECEASED,True,3.0,2.0,0.4,False,False,False,False,False,1,0.6666664444445185
+733,P-0044705,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,28.74507227,1:DECEASED,True,4.0,4.0,0.5,False,False,False,False,False,1,0.9999997500000625
+734,P-0044707,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,9.526938239,1:DECEASED,True,9.0,4.0,0.3076923076923077,False,False,False,False,False,1,0.44444439506173394
+735,P-0044708,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,9.724047306,1:DECEASED,True,4.0,6.0,0.6,True,False,False,False,False,1,1.4999996250000938
+736,P-0044710,NSCLC,Non-Small Cell Lung Cancer,Non-Small Cell Lung Cancer,2.168199737,1:DECEASED,True,0.0,7.0,1.0,True,True,True,False,False,2,7000000.0
+737,P-0044902,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,3.120893561,1:DECEASED,False,11.0,0.0,0.0,False,False,False,True,True,0,0.0
+738,P-0044912,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,2.923784494,1:DECEASED,True,12.0,4.0,0.25,False,False,False,False,True,1,0.3333333055555579
+739,P-0044913,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,30.35479632,0:LIVING,False,6.0,0.0,0.0,False,False,False,True,True,0,0.0
+740,P-0044940,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,5.584756899,1:DECEASED,True,10.0,5.0,0.3333333333333333,False,False,False,False,False,1,0.499999950000005
+741,P-0044964,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,29.56636005,0:LIVING,True,9.0,2.0,0.18181818181818182,False,False,False,True,True,0,0.22222219753086697
+742,P-0044969,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,9.625492773,1:DECEASED,True,14.0,2.0,0.125,False,False,False,True,True,0,0.14285713265306196
+743,P-0045005,LUSC,Non-Small Cell Lung Cancer,Lung Squamous Cell Carcinoma,5.190538765,1:DECEASED,True,10.0,2.0,0.16666666666666666,False,False,False,True,True,0,0.19999998000000202
+744,P-0045119,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,28.74507227,0:LIVING,False,3.0,1.0,0.25,False,False,False,False,True,1,0.33333322222225925
+745,P-0045169,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,36.56373193,0:LIVING,True,19.0,4.0,0.17391304347826086,False,False,False,True,True,0,0.21052630470914185
+746,P-0045184,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,8.508541393,1:DECEASED,True,17.0,5.0,0.22727272727272727,False,False,False,False,True,1,0.2941176297577865
+747,P-0045222,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,29.46780552,0:LIVING,False,2.0,0.0,0.0,False,False,False,True,True,0,0.0
+748,P-0045232,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,9.099868594,0:LIVING,False,2.0,1.0,0.3333333333333333,False,False,False,False,False,1,0.499999750000125
+749,P-0045260,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,4.073587385,0:LIVING,True,8.0,5.0,0.38461538461538464,False,False,False,False,False,1,0.6249999218750099
+750,P-0045262,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,10.24967148,1:DECEASED,False,1.0,0.0,0.0,False,False,False,True,True,0,0.0
+751,P-0045263,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,15.90013141,0:LIVING,False,3.0,0.0,0.0,False,False,False,True,True,0,0.0
+752,P-0045267,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,28.74507227,0:LIVING,True,9.0,4.0,0.3076923076923077,False,False,False,False,False,1,0.44444439506173394
+753,P-0045298,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,44.1195795,0:LIVING,True,34.0,2.0,0.05555555555555555,False,False,False,True,True,0,0.05882352768166096
+754,P-0045302,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,23.55453351,1:DECEASED,False,2.0,0.0,0.0,False,False,False,True,True,0,0.0
+755,P-0045401,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,2.825229961,1:DECEASED,True,1.0,3.0,0.75,True,True,False,False,False,1,2.9999970000030003
+756,P-0045418,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,0.689881735,0:LIVING,True,3.0,5.0,0.625,True,False,False,False,False,1,1.6666661111112961
+757,P-0045480,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,11.72798949,1:DECEASED,True,0.0,4.0,1.0,True,True,True,False,False,2,4000000.0
+758,P-0045481,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,32.3587385,0:LIVING,True,7.0,12.0,0.631578947368421,True,False,False,False,False,1,1.71428546938779
+759,P-0045484,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,20.23653088,1:DECEASED,True,12.0,21.0,0.6363636363636364,True,False,False,False,False,1,1.749999854166679
+760,P-0045557,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,29.13929041,1:DECEASED,True,3.0,2.0,0.4,False,False,False,False,False,1,0.6666664444445185
+761,P-0045566,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,30.94612352,0:LIVING,False,2.0,0.0,0.0,False,False,False,True,True,0,0.0
+762,P-0045581,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,24.86859396,0:LIVING,False,1.0,1.0,0.5,False,False,False,False,False,1,0.9999990000010001
+763,P-0045614,LUSC,Non-Small Cell Lung Cancer,Lung Squamous Cell Carcinoma,24.37582129,1:DECEASED,False,3.0,0.0,0.0,False,False,False,True,True,0,0.0
+764,P-0045617,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,2.660972405,1:DECEASED,False,2.0,1.0,0.3333333333333333,False,False,False,False,False,1,0.499999750000125
+765,P-0045621,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,16.32720105,0:LIVING,False,14.0,0.0,0.0,False,False,False,True,True,0,0.0
+766,P-0045645,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,62.38501971,0:LIVING,False,3.0,0.0,0.0,False,False,False,True,True,0,0.0
+767,P-0045670,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,0.229960578,0:LIVING,False,2.0,0.0,0.0,False,False,False,True,True,0,0.0
+768,P-0045686,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,0.755584757,0:LIVING,False,16.0,0.0,0.0,False,False,False,True,True,0,0.0
+769,P-0045737,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,29.33639947,0:LIVING,False,8.0,0.0,0.0,False,False,False,True,True,0,0.0
+770,P-0045808,LUSC,Non-Small Cell Lung Cancer,Lung Squamous Cell Carcinoma,11.69513798,0:LIVING,True,13.0,5.0,0.2777777777777778,False,False,False,False,True,1,0.3846153550295881
+771,P-0045809,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,20.0065703,0:LIVING,True,19.0,11.0,0.36666666666666664,False,False,False,False,False,1,0.5789473379501401
+772,P-0045867,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,12.84494087,1:DECEASED,True,15.0,3.0,0.16666666666666666,False,False,False,True,True,0,0.19999998666666757
+773,P-0045996,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,52.39816032,1:DECEASED,True,54.0,3.0,0.05263157894736842,False,False,False,True,True,0,0.05555555452674899
+774,P-0046050,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,28.90932983,0:LIVING,False,6.0,1.0,0.14285714285714285,False,False,False,True,True,0,0.16666663888889352
+775,P-0046177,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,67.90407359,0:LIVING,True,6.0,20.0,0.7692307692307693,True,True,False,False,False,1,3.33333277777787
+776,P-0046288,LUSC,Non-Small Cell Lung Cancer,Lung Squamous Cell Carcinoma,4.467805519,1:DECEASED,False,4.0,1.0,0.2,False,False,False,False,True,1,0.24999993750001562
+777,P-0046339,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,0.85413929,0:LIVING,False,1.0,1.0,0.5,False,False,False,False,False,1,0.9999990000010001
+778,P-0046468,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,1.67542707,0:LIVING,True,9.0,2.0,0.18181818181818182,False,False,False,True,True,0,0.22222219753086697
+779,P-0046477,NSCLC,Non-Small Cell Lung Cancer,Non-Small Cell Lung Cancer,170.4336399,0:LIVING,True,3.0,5.0,0.625,True,False,False,False,False,1,1.6666661111112961
+780,P-0046712,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,28.8107753,0:LIVING,True,13.0,6.0,0.3157894736842105,False,False,False,False,False,1,0.4615384260355057
+781,P-0046725,NSCLC,Non-Small Cell Lung Cancer,Non-Small Cell Lung Cancer,11.07095926,1:DECEASED,True,10.0,3.0,0.23076923076923078,False,False,False,False,True,1,0.299999970000003
+782,P-0046726,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,18.03547963,1:DECEASED,True,38.0,5.0,0.11627906976744186,False,False,False,True,True,0,0.13157894390581729
+783,P-0046755,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,1.379763469,1:DECEASED,True,15.0,4.0,0.21052631578947367,False,False,False,False,True,1,0.2666666488888901
+784,P-0046819,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,1.511169514,1:DECEASED,True,0.0,8.0,1.0,True,True,True,False,False,2,8000000.0
+785,P-0046822,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,1.97109067,1:DECEASED,True,15.0,5.0,0.25,False,False,False,False,True,1,0.3333333111111126
+786,P-0046824,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,19.21813403,1:DECEASED,True,21.0,62.0,0.7469879518072289,True,True,False,False,False,1,2.95238081179139
+787,P-0046827,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,2.036793693,0:LIVING,True,7.0,3.0,0.3,False,False,False,False,False,1,0.4285713673469475
+788,P-0046850,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,7.29303548,1:DECEASED,True,1.0,5.0,0.8333333333333334,True,True,False,False,False,2,4.999995000005001
+789,P-0046859,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,6.274638633,1:DECEASED,False,6.0,0.0,0.0,False,False,False,True,True,0,0.0
+790,P-0046875,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,15.63731932,1:DECEASED,False,3.0,0.0,0.0,False,False,False,True,True,0,0.0
+791,P-0046923,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,4.862023653,1:DECEASED,True,2.0,3.0,0.6,True,False,False,False,False,1,1.499999250000375
+792,P-0046946,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,2.956636005,1:DECEASED,True,17.0,7.0,0.2916666666666667,False,False,False,False,True,1,0.4117646816609011
+793,P-0047031,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,22.73324573,0:LIVING,False,24.0,0.0,0.0,False,False,False,True,True,0,0.0
+794,P-0047032,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,13.69908016,0:LIVING,True,0.0,3.0,1.0,True,True,True,False,False,2,3000000.0
+795,P-0047181,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,33.40998686,1:DECEASED,True,12.0,46.0,0.7931034482758621,True,True,False,False,False,1,3.833333013888916
+796,P-0047183,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,3.515111695,1:DECEASED,True,4.0,5.0,0.5555555555555556,True,False,False,False,False,1,1.249999687500078
+797,P-0047185,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,26.64257556,0:LIVING,True,3.0,8.0,0.7272727272727273,True,True,False,False,False,1,2.666665777778074
+798,P-0047188,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,1.11695138,0:LIVING,True,9.0,4.0,0.3076923076923077,False,False,False,False,False,1,0.44444439506173394
+799,P-0047193,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,148.6202365,1:DECEASED,True,45.0,10.0,0.18181818181818182,False,False,False,True,True,0,0.22222221728395075
+800,P-0047194,LUAS,Non-Small Cell Lung Cancer,Lung Adenosquamous Carcinoma,5.453350854,1:DECEASED,True,0.0,6.0,1.0,True,True,True,False,False,2,6000000.0
+801,P-0047311,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,23.94875164,0:LIVING,False,3.0,1.0,0.25,False,False,False,False,True,1,0.33333322222225925
+802,P-0047446,LUSC,Non-Small Cell Lung Cancer,Lung Squamous Cell Carcinoma,2.759526938,1:DECEASED,True,10.0,2.0,0.16666666666666666,False,False,False,True,True,0,0.19999998000000202
+803,P-0047469,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,4.829172142,1:DECEASED,True,0.0,6.0,1.0,True,True,True,False,False,2,6000000.0
+804,P-0047476,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,21.91195795,1:DECEASED,False,0.0,1.0,1.0,True,True,True,False,False,2,1000000.0
+805,P-0047579,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,0.788436268,0:LIVING,True,3.0,6.0,0.6666666666666666,True,False,False,False,False,1,1.9999993333335555
+806,P-0047581,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,27.10249671,0:LIVING,True,0.0,5.0,1.0,True,True,True,False,False,2,5000000.0
+807,P-0047618,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,17.73981603,1:DECEASED,False,12.0,0.0,0.0,False,False,False,True,True,0,0.0
+808,P-0047646,LUSC,Non-Small Cell Lung Cancer,Lung Squamous Cell Carcinoma,25.98554534,1:DECEASED,True,2.0,3.0,0.6,True,False,False,False,False,1,1.499999250000375
+809,P-0047712,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,3.712220762,0:LIVING,True,6.0,11.0,0.6470588235294118,True,False,False,False,False,1,1.8333330277778286
+810,P-0047730,LUSC,Non-Small Cell Lung Cancer,Lung Squamous Cell Carcinoma,17.27989488,1:DECEASED,True,9.0,2.0,0.18181818181818182,False,False,False,True,True,0,0.22222219753086697
+811,P-0047788,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,14.61892247,1:DECEASED,True,4.0,4.0,0.5,False,False,False,False,False,1,0.9999997500000625
+812,P-0047792,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,10.80814717,1:DECEASED,False,6.0,1.0,0.14285714285714285,False,False,False,True,True,0,0.16666663888889352
+813,P-0047830,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,26.28120894,0:LIVING,False,0.0,1.0,1.0,True,True,True,False,False,2,1000000.0
+814,P-0047831,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,39.65177398,1:DECEASED,True,2.0,3.0,0.6,True,False,False,False,False,1,1.499999250000375
+815,P-0047832,LUSC,Non-Small Cell Lung Cancer,Lung Squamous Cell Carcinoma,5.387647832,1:DECEASED,False,3.0,0.0,0.0,False,False,False,True,True,0,0.0
+816,P-0047836,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,26.74113009,0:LIVING,True,3.0,8.0,0.7272727272727273,True,True,False,False,False,1,2.666665777778074
+817,P-0047951,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,8.541392904,0:LIVING,True,10.0,10.0,0.5,False,False,False,False,False,1,0.99999990000001
+818,P-0047953,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,3.38370565,0:LIVING,True,11.0,2.0,0.15384615384615385,False,False,False,True,True,0,0.1818181652892577
+819,P-0048066,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,27.03679369,0:LIVING,False,14.0,1.0,0.06666666666666667,False,False,False,True,True,0,0.07142856632653098
+820,P-0048095,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,18.65965834,1:DECEASED,True,19.0,13.0,0.40625,False,False,False,False,False,1,0.684210490304711
+821,P-0048101,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,7.128777924,1:DECEASED,True,0.0,5.0,1.0,True,True,True,False,False,2,5000000.0
+822,P-0048114,NSCLC,Non-Small Cell Lung Cancer,Non-Small Cell Lung Cancer,6.110381078,1:DECEASED,True,31.0,4.0,0.11428571428571428,False,False,False,True,True,0,0.12903225390218534
+823,P-0048159,LUSC,Non-Small Cell Lung Cancer,Lung Squamous Cell Carcinoma,11.53088042,0:LIVING,False,7.0,1.0,0.125,False,False,False,True,True,0,0.1428571224489825
+824,P-0048333,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,8.442838371,0:LIVING,True,4.0,3.0,0.42857142857142855,False,False,False,False,False,1,0.7499998125000469
+825,P-0048563,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,26.31406045,0:LIVING,True,0.0,10.0,1.0,True,True,True,False,False,2,10000000.0
+826,P-0048568,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,4.862023653,0:LIVING,True,0.0,5.0,1.0,True,True,True,False,False,2,5000000.0
+827,P-0048614,NSCLC,Non-Small Cell Lung Cancer,Non-Small Cell Lung Cancer,22.73324573,1:DECEASED,True,6.0,3.0,0.3333333333333333,False,False,False,False,False,1,0.49999991666668053
+828,P-0048672,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,44.25098555,0:LIVING,False,3.0,1.0,0.25,False,False,False,False,True,1,0.33333322222225925
+829,P-0048701,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,3.515111695,1:DECEASED,True,5.0,3.0,0.375,False,False,False,False,False,1,0.599999880000024
+830,P-0048754,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,20.63074901,0:LIVING,False,10.0,0.0,0.0,False,False,False,True,True,0,0.0
+831,P-0048762,NSCLC,Non-Small Cell Lung Cancer,Non-Small Cell Lung Cancer,7.785808147,1:DECEASED,True,11.0,3.0,0.21428571428571427,False,False,False,False,True,1,0.2727272479338866
+832,P-0048868,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,20.82785808,1:DECEASED,False,3.0,0.0,0.0,False,False,False,True,True,0,0.0
+833,P-0048918,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,8.738501971,1:DECEASED,True,23.0,3.0,0.11538461538461539,False,False,False,True,True,0,0.1304347769376184
+834,P-0049137,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,24.73718791,0:LIVING,True,0.0,12.0,1.0,True,True,True,False,False,2,12000000.0
+835,P-0049197,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,2.168199737,0:LIVING,False,7.0,0.0,0.0,False,False,False,True,True,0,0.0
+836,P-0049306,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,28.28515112,0:LIVING,True,2.0,2.0,0.5,False,False,False,False,False,1,0.99999950000025
+837,P-0049375,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,0.525624179,0:LIVING,False,5.0,1.0,0.16666666666666666,False,False,False,True,True,0,0.199999960000008
+838,P-0049478,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,0.919842313,0:LIVING,True,37.0,5.0,0.11904761904761904,False,False,False,True,True,0,0.1351351314828343
+839,P-0049484,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,24.63863338,0:LIVING,False,17.0,1.0,0.05555555555555555,False,False,False,True,True,0,0.05882352595155729
+840,P-0049646,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,24.54007884,0:LIVING,True,0.0,8.0,1.0,True,True,True,False,False,2,8000000.0
+841,P-0049651,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,0.689881735,0:LIVING,True,0.0,12.0,1.0,True,True,True,False,False,2,12000000.0
+842,P-0049977,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,26.90538765,0:LIVING,False,6.0,0.0,0.0,False,False,False,True,True,0,0.0
+843,P-0050018,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,21.55059133,1:DECEASED,True,0.0,3.0,1.0,True,True,True,False,False,2,3000000.0
+844,P-0050218,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,0.459921156,0:LIVING,True,2.0,4.0,0.6666666666666666,True,False,False,False,False,1,1.9999990000005
+845,P-0050220,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,22.37187911,0:LIVING,True,0.0,2.0,1.0,True,True,True,False,False,2,2000000.0
+846,P-0050455,NSCLC,Non-Small Cell Lung Cancer,Non-Small Cell Lung Cancer,1.379763469,1:DECEASED,False,19.0,0.0,0.0,False,False,False,True,True,0,0.0
+847,P-0050568,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,0.328515112,0:LIVING,False,13.0,0.0,0.0,False,False,False,True,True,0,0.0
+848,P-0050581,NSCLC,Non-Small Cell Lung Cancer,Non-Small Cell Lung Cancer,2.792378449,1:DECEASED,True,9.0,5.0,0.35714285714285715,False,False,False,False,False,1,0.5555554938271674
+849,P-0050585,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,23.71879106,0:LIVING,True,51.0,13.0,0.203125,False,False,False,False,True,1,0.2549019557862362
+850,P-0050684,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,1.708278581,0:LIVING,True,0.0,12.0,1.0,True,True,True,False,False,2,12000000.0
+851,P-0050832,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,1.478318003,0:LIVING,True,7.0,6.0,0.46153846153846156,False,False,False,False,False,1,0.857142734693895
+852,P-0050839,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,24.04730618,0:LIVING,True,5.0,6.0,0.5454545454545454,True,False,False,False,False,1,1.199999760000048
+853,P-0050959,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,11.72798949,0:LIVING,False,13.0,1.0,0.07142857142857142,False,False,False,True,True,0,0.07692307100591762
+854,P-0050987,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,19.4152431,1:DECEASED,True,0.0,4.0,1.0,True,True,True,False,False,2,4000000.0
+855,P-0050989,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,21.94480946,1:DECEASED,True,0.0,10.0,1.0,True,True,True,False,False,2,10000000.0
+856,P-0051070,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,23.35742444,0:LIVING,False,7.0,0.0,0.0,False,False,False,True,True,0,0.0
+857,P-0051231,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,65.11169514,0:LIVING,True,13.0,7.0,0.35,False,False,False,False,False,1,0.5384614970414233
+858,P-0051281,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,1.872536137,0:LIVING,False,3.0,1.0,0.25,False,False,False,False,True,1,0.33333322222225925
+859,P-0051282,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,5.453350854,0:LIVING,True,4.0,13.0,0.7647058823529411,True,True,False,False,False,1,3.2499991875002032
+860,P-0051397,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,14.48751643,0:LIVING,True,0.0,9.0,1.0,True,True,True,False,False,2,9000000.0
+861,P-0051398,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,0.131406045,0:LIVING,False,0.0,1.0,1.0,True,True,True,False,False,2,1000000.0
+862,P-0051449,OCSC,Head and Neck Cancer,Oral Cavity Squamous Cell Carcinoma,4.237844941,1:DECEASED,False,16.0,0.0,0.0,False,False,False,True,True,0,0.0
+863,P-0051527,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,8.409986859,0:LIVING,True,0.0,2.0,1.0,True,True,True,False,False,2,2000000.0
+864,P-0051531,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,4.730617608,1:DECEASED,True,0.0,4.0,1.0,True,True,True,False,False,2,4000000.0
+865,P-0051764,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,39.09329829,1:DECEASED,True,3.0,3.0,0.5,False,False,False,False,False,1,0.9999996666667778
+866,P-0051860,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,26.478318,0:LIVING,False,6.0,1.0,0.14285714285714285,False,False,False,True,True,0,0.16666663888889352
+867,P-0051885,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,0.262812089,0:LIVING,True,0.0,8.0,1.0,True,True,True,False,False,2,8000000.0
+868,P-0051901,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,1.281208936,1:DECEASED,True,4.0,4.0,0.5,False,False,False,False,False,1,0.9999997500000625
+869,P-0052002,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,22.17477004,0:LIVING,True,0.0,3.0,1.0,True,True,True,False,False,2,3000000.0
+870,P-0052008,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,19.21813403,1:DECEASED,False,6.0,1.0,0.14285714285714285,False,False,False,True,True,0,0.16666663888889352
+871,P-0052012,LUSC,Non-Small Cell Lung Cancer,Lung Squamous Cell Carcinoma,7.785808147,1:DECEASED,True,0.0,2.0,1.0,True,True,True,False,False,2,2000000.0
+872,P-0052013,LUSC,Non-Small Cell Lung Cancer,Lung Squamous Cell Carcinoma,25.52562418,0:LIVING,True,9.0,8.0,0.47058823529411764,False,False,False,False,False,1,0.8888887901234679
+873,P-0052016,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,22.30617608,0:LIVING,True,5.0,4.0,0.4444444444444444,False,False,False,False,False,1,0.799999840000032
+874,P-0052105,NSCLC,Non-Small Cell Lung Cancer,Non-Small Cell Lung Cancer,2.52956636,0:LIVING,False,14.0,0.0,0.0,False,False,False,True,True,0,0.0
+875,P-0052138,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,1.149802891,1:DECEASED,True,0.0,8.0,1.0,True,True,True,False,False,2,8000000.0
+876,P-0052279,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,1.248357424,0:LIVING,True,4.0,3.0,0.42857142857142855,False,False,False,False,False,1,0.7499998125000469
+877,P-0052367,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,12.22076216,1:DECEASED,True,0.0,12.0,1.0,True,True,True,False,False,2,12000000.0
+878,P-0052369,LUSC,Non-Small Cell Lung Cancer,Lung Squamous Cell Carcinoma,10.38107753,1:DECEASED,True,25.0,8.0,0.24242424242424243,False,False,False,False,True,1,0.3199999872000005
+879,P-0052616,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,8.902759527,0:LIVING,False,36.0,1.0,0.02702702702702703,False,False,False,True,True,0,0.027777777006172864
+880,P-0052639,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,15.3088042,1:DECEASED,True,10.0,5.0,0.3333333333333333,False,False,False,False,False,1,0.499999950000005
+881,P-0052859,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,28.77792378,1:DECEASED,False,0.0,1.0,1.0,True,True,True,False,False,2,1000000.0
+882,P-0052867,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,18.36399474,0:LIVING,True,0.0,2.0,1.0,True,True,True,False,False,2,2000000.0
+883,P-0053219,LUSC,Non-Small Cell Lung Cancer,Lung Squamous Cell Carcinoma,8.015768725,1:DECEASED,False,5.0,0.0,0.0,False,False,False,True,True,0,0.0
+884,P-0053241,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,7.358738502,1:DECEASED,True,4.0,3.0,0.42857142857142855,False,False,False,False,False,1,0.7499998125000469
+885,P-0053245,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,21.55059133,0:LIVING,False,151.0,0.0,0.0,False,False,False,True,True,0,0.0
+886,P-0053282,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,1.872536137,1:DECEASED,True,15.0,8.0,0.34782608695652173,False,False,False,False,False,1,0.5333332977777802
+887,P-0053347,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,2.858081472,1:DECEASED,True,3.0,4.0,0.5714285714285714,True,False,False,False,False,1,1.333332888889037
+888,P-0053524,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,46.64914586,0:LIVING,True,7.0,3.0,0.3,False,False,False,False,False,1,0.4285713673469475
+889,P-0053608,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,3.94218134,1:DECEASED,True,8.0,7.0,0.4666666666666667,False,False,False,False,False,1,0.8749998906250137
+890,P-0053613,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,18.33114323,1:DECEASED,False,7.0,1.0,0.125,False,False,False,True,True,0,0.1428571224489825
+891,P-0053618,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,14.91458607,1:DECEASED,False,18.0,1.0,0.05263157894736842,False,False,False,True,True,0,0.055555552469135974
+892,P-0053619,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,6.603153745,1:DECEASED,True,6.0,9.0,0.6,True,False,False,False,False,1,1.4999997500000417
+893,P-0053632,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,44.54664915,1:DECEASED,True,0.0,2.0,1.0,True,True,True,False,False,2,2000000.0
+894,P-0053796,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,1.773981603,1:DECEASED,True,0.0,5.0,1.0,True,True,True,False,False,2,5000000.0
+895,P-0053798,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,1.018396846,0:LIVING,True,0.0,5.0,1.0,True,True,True,False,False,2,5000000.0
+896,P-0053807,LUSC,Non-Small Cell Lung Cancer,Lung Squamous Cell Carcinoma,5.420499343,1:DECEASED,True,6.0,4.0,0.4,False,False,False,False,False,1,0.6666665555555741
+897,P-0053871,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,5.091984231,0:LIVING,True,13.0,9.0,0.4090909090909091,False,False,False,False,False,1,0.6923076390532585
+898,P-0054075,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,5.190538765,1:DECEASED,True,15.0,2.0,0.11764705882352941,False,False,False,True,True,0,0.13333332444444504
+899,P-0054118,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,21.09067017,0:LIVING,True,0.0,3.0,1.0,True,True,True,False,False,2,3000000.0
+900,P-0054127,CUP,Cancer of Unknown Primary,Cancer of Unknown Primary,9.789750329,1:DECEASED,True,0.0,2.0,1.0,True,True,True,False,False,2,2000000.0
+901,P-0054132,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,11.760841,1:DECEASED,False,0.0,1.0,1.0,True,True,True,False,False,2,1000000.0
+902,P-0054190,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,10.74244415,1:DECEASED,True,12.0,3.0,0.2,False,False,False,False,True,1,0.2499999791666684
+903,P-0054355,ESCA,Esophagogastric Cancer,Esophageal Adenocarcinoma,21.94480946,0:LIVING,False,9.0,0.0,0.0,False,False,False,True,True,0,0.0
+904,P-0054419,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,0.492772668,0:LIVING,True,6.0,3.0,0.3333333333333333,False,False,False,False,False,1,0.49999991666668053
+905,P-0054589,LUSC,Non-Small Cell Lung Cancer,Lung Squamous Cell Carcinoma,4.172141919,0:LIVING,False,8.0,1.0,0.1111111111111111,False,False,False,True,True,0,0.12499998437500197
+906,P-0055173,LUSC,Non-Small Cell Lung Cancer,Lung Squamous Cell Carcinoma,2.463863338,1:DECEASED,True,4.0,2.0,0.3333333333333333,False,False,False,False,False,1,0.49999987500003124
+907,P-0055288,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,0.525624179,0:LIVING,True,8.0,6.0,0.42857142857142855,False,False,False,False,False,1,0.7499999062500118
+908,P-0055307,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,17.6412615,1:DECEASED,False,6.0,1.0,0.14285714285714285,False,False,False,True,True,0,0.16666663888889352
+909,P-0055577,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,17.70696452,1:DECEASED,True,14.0,23.0,0.6216216216216216,True,False,False,False,False,1,1.6428570255102126
+910,P-0055587,LNET,Non-Small Cell Lung Cancer,Lung Neuroendocrine Tumor,24.34296978,0:LIVING,False,4.0,0.0,0.0,False,False,False,True,True,0,0.0
+911,P-0055609,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,18.65965834,0:LIVING,True,7.0,2.0,0.2222222222222222,False,False,False,False,True,1,0.285714244897965
+912,P-0055610,LUAS,Non-Small Cell Lung Cancer,Lung Adenosquamous Carcinoma,5.354796321,0:LIVING,False,11.0,1.0,0.08333333333333333,False,False,False,True,True,0,0.09090908264462885
+913,P-0055773,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,28.58081472,0:LIVING,False,2.0,0.0,0.0,False,False,False,True,True,0,0.0
+914,P-0056305,LUSC,Non-Small Cell Lung Cancer,Lung Squamous Cell Carcinoma,17.70696452,0:LIVING,True,9.0,2.0,0.18181818181818182,False,False,False,True,True,0,0.22222219753086697
+915,P-0056318,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,42.21419185,0:LIVING,True,3.0,2.0,0.4,False,False,False,False,False,1,0.6666664444445185
+916,P-0056415,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,66.85282523,0:LIVING,True,10.0,6.0,0.375,False,False,False,False,False,1,0.599999940000006
+917,P-0056737,NSCLC,Non-Small Cell Lung Cancer,Non-Small Cell Lung Cancer,18.98817346,0:LIVING,False,44.0,0.0,0.0,False,False,False,True,True,0,0.0
+918,P-0056790,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,24.83574244,1:DECEASED,True,0.0,3.0,1.0,True,True,True,False,False,2,3000000.0
+919,P-0057076,LUSC,Non-Small Cell Lung Cancer,Lung Squamous Cell Carcinoma,3.38370565,0:LIVING,True,0.0,5.0,1.0,True,True,True,False,False,2,5000000.0
+920,P-0057388,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,1.314060447,0:LIVING,True,4.0,9.0,0.6923076923076923,True,False,False,False,False,1,2.2499994375001404
+921,P-0057391,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,29.27069645,0:LIVING,False,4.0,1.0,0.2,False,False,False,False,True,1,0.24999993750001562
+922,P-0057575,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,3.120893561,1:DECEASED,True,9.0,6.0,0.4,False,False,False,False,False,1,0.6666665925926009
+923,P-0057860,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,1.248357424,0:LIVING,True,9.0,5.0,0.35714285714285715,False,False,False,False,False,1,0.5555554938271674
+924,P-0058294,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,1.609724047,1:DECEASED,True,0.0,5.0,1.0,True,True,True,False,False,2,5000000.0
+925,P-0058303,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,15.11169514,0:LIVING,True,12.0,8.0,0.4,False,False,False,False,False,1,0.6666666111111158
+926,P-0058613,NSCLC,Non-Small Cell Lung Cancer,Non-Small Cell Lung Cancer,3.64651774,1:DECEASED,True,0.0,12.0,1.0,True,True,True,False,False,2,12000000.0
+927,P-0058614,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,15.0131406,0:LIVING,True,6.0,2.0,0.25,False,False,False,False,True,1,0.33333327777778704
+928,P-0059005,NSCLC,Non-Small Cell Lung Cancer,Non-Small Cell Lung Cancer,13.79763469,0:LIVING,True,6.0,12.0,0.6666666666666666,True,False,False,False,False,1,1.9999996666667221
+929,P-0059249,LUAD,Non-Small Cell Lung Cancer,Lung Adenocarcinoma,14.15900131,0:LIVING,True,0.0,2.0,1.0,True,True,True,False,False,2,2000000.0
